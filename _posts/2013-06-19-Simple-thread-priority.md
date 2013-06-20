@@ -7,7 +7,7 @@ thumbnail: /img/knightos.png
 
 For [KnightOS](https://github.com/SirCmpwn/KnightOS), I was recently faced with the interesting challenge of how to
 handle thread priority. Before, all threads had the same priority, but a few things have driven me to want to change
-that.
+that. Keep in mind - the worst supported platform has got 6 MHz to share among all processes.
 
 * I wanted to implement daemons
   * This made me bump the process cap to 32
