@@ -29,6 +29,7 @@ priority nibble. When the priority state is zero, it gets executed. If it's not 
 runs instead.
 
 This is a cheap kind of scheduler (whereas the 
-[old method](https://github.com/KnightSoft/kernel/blob/master/src/00/interrupt.asm) probably couldn't be justifiably
-called that), which should address our problem. I haven't implemented this change yet, but when I do, I'll come update
-this blog post with the effectiveness of this simple scheduler and links to the updated code.
+[old method](https://github.com/KnightSoft/kernel/blob/a53c2c720fcb40db028dc988ab08593b387738bc/src/00/interrupt.asm)
+probably couldn't be justifiably called that), which should address our problem. I haven't implemented this change yet,
+but when I do, I'll come update this blog post with the effectiveness of this simple scheduler and links to the updated
+code.
