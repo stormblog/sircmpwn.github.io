@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+        <link rel="stylesheet" type="text/css" href="/css/base.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar navbar-fixed-top">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <a class="brand" href="/">Drew DeVault</a>
+                        <ul class="nav">
+                            <li><a href="/projects.html">Projects</a></li>
+                            <li><a href="/contact.html">Contact</a></li>
+                        </ul>
+                        <div class="pull-right muted" style="line-height: 40px;">
+                            This site and all its contents are <a href="http://opensource.org/licenses/MIT">MIT licensed</a>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ content }}
+        </div>
+        <script src="/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-37292778-1");
+              pageTracker._trackPageview();
+            } catch(err) {}
+        </script>
+    </body>
+</html>
