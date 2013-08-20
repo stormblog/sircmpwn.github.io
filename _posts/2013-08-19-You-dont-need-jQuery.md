@@ -61,7 +61,7 @@ xhr.onload = function() {
 var formData = new FormData();
 formData.append('parameter', value);
 formData.append('otherParameter', value);
-xhr.send();
+xhr.send(formData);
 {% endhighlight %}
 
 Documentation: [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
