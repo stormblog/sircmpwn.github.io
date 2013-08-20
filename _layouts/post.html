@@ -4,6 +4,44 @@ layout: base
 
 <h1>{{ page.title }}</h1>
 {{ content }}
+<div id="about">
+    <h3>About the Author</h3>
+    <p>I am Drew DeVault, also known as <a href="https://twitter.com/SirCmpwn">SirCmpwn</a>. I write lots of crazy
+    open-source software in my spare time. Here's a randomly-generated list of some of my stuff:
+    <ul>
+    </ul>
+    <p>Refresh the page to see more, or visit my <a href="https://github.com/SirCmpwn">GitHub</a> to see them all
+    at once.</p>
+</div>
+<script type="text/javascript">
+Array.prototype.remove = function(from, to) {
+  var rest = this.slice((to || from) + 1 || this.length);
+  this.length = from < 0 ? this.length + from : from;
+  return this.push.apply(this, rest);
+};
+var about = document.querySelectorAll('#about ul')[0];
+var options = [
+    '<a href="https://github.com/SirCmpwn/RedditSharp">A Reddit API wrapper for .NET</a>',
+    '<a href="https://github.com/SirCmpwn/Craft.Net">A .NET Minecraft library that does everything</a>',
+    '<a href="https://github.com/KnightSoft/kernel">A kernel written entirely in z80 assembly</a>',
+    '<a href="https://mediacru.sh">A media hosting service that converts GIFs to HTML5 video</a>',
+    '<a href="https://github.com/SirCmpwn/RetroCraft">A proxy that lets new Minecraft players connect to old servers</a>',
+    '<a href="https://github.com/SirCmpwn/bf-irc-bot">An IRC bot written entirely in brainfuck</a>',
+    '<a href="https://github.com/SirCmpwn/WebSharp">A lightweight web framework for .NET, inspired by node.js</a>',
+    '<a href="https://github.com/SirCmpwn/ChatSharp">A .NET IRC framework</a>',
+    '<a href="http://drewdevault.com/Patchy">A bittorrent client for Windows</a>',
+    '<a href="https://github.com/KnightSoft/sass">A z80 assembler</a>',
+    '<a href="https://github.com/KnightSoft/KnightOS">An operating system for TI calculators</a>',
+    '<a href="http://drewdevault.com/hiragana.js">A JavaScript library for in-browser Japanese IMEs</a>'
+];
+for (var a = 0; a < 3; a++) {
+    var i = Math.floor(Math.random() * options.length);
+    var child = document.createElement('li');
+    child.innerHTML = options[i];
+    about.appendChild(child);
+    options.remove(i);
+}
+</script>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
