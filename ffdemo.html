@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <body>
+        <script type="text/javascript">
+            window.addEventListener('paste', function(e) {
+                if (e.clipboardData) {
+                    var items = e.clipboardData.items;
+                    if (items) {
+                        for (var i = 0; i < items.length; i++) {
+                            if (items[i].type.indexOf("text/") == 0) {
+                                items[i].getAsString(function(value) {
+                                    document.write(value);
+                                });
+                            }
+                        }
+                    }
+                }
+            }, false);
+        </script>
+    </body>
+</html>
