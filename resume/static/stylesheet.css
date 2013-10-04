@@ -1,0 +1,87 @@
+html {
+    background: #ddd;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: white;
+    margin: 50px auto;
+    width: 900px;
+    box-shadow: 0 0 3px 3px #444;
+    padding: 10px;
+    position: relative;
+    text-align: justify;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(66, 139, 202); /* I like bootstrap link colors */
+}
+
+a:hover, a:focus {
+    color: rgb(42, 100, 150);
+    text-decoration: underline;
+}
+
+address {
+    float: right;
+    border-left: 2px solid #ccc;
+    padding-left: 5px;
+    margin-left: 5px;
+    width: 250px;
+    font-style: normal;
+}
+
+address a[href="https://github.com/SirCmpwn"]::before {
+    content: '';
+    width: 16px;
+    height: 17px;
+    display: inline-block;
+    margin-right: 5px;
+    background: url('github.png') 0 3px no-repeat scroll;
+}
+
+address a[href="https://twitter.com/sircmpwn"]::before {
+    content: '';
+    width: 16px;
+    height: 17px;
+    display: inline-block;
+    margin-right: 5px;
+    background: url('twitter.png') 0 3px no-repeat scroll;
+}
+
+address a[href^="mailto:"]::before {
+    content: '';
+    width: 16px;
+    height: 17px;
+    display: inline-block;
+    margin-right: 5px;
+    background: url('email.png') 0 3px no-repeat scroll;
+}
+
+.media > div {
+    width: 270px;
+    margin: 0 5px;
+    padding: 4px 9px;
+    float: left;
+    background: #eee;
+    border: 1px solid #ccc;
+    height: 300px;
+}
+
+.media + * {
+    clear: both;
+    padding-top: 10px;
+}
+
+.media h3 {
+    margin: 2px 0;
+}
+
+.media p {
+    margin: 0;
+}
