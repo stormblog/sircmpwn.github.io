@@ -14,13 +14,11 @@ something interesting to say, so expect infrequent articles.</p>
 
 <div class="media">
 {% for post in site.posts %}
+    {% if post.thumbnail != nil %}
     <a href="{{ post.url }}" class="pull-left">
-        {% if post.thumbnail == nil %}
-       <img class="media-object" src="http://placehold.it/64x64" /> 
-       {% else %}
        <img class="media-object" src="{{ post.thumbnail }}" /> 
-       {% endif %}
     </a>
+   {% endif %}
     <div class="media-body">
         <a href="{{ post.url }}"><h4 class="media-heading">{{ post.title }}</h4></a>
         <small>{{ post.date | date_to_string }}</small>
