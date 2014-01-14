@@ -38,3 +38,8 @@ pre {
     width: 64px;
     height: 64px;
 }
+
+.asciicast, iframe {
+    margin: 2px auto !important;
+    display: block;
+}
