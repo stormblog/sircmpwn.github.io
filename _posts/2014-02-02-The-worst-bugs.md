@@ -11,7 +11,7 @@ figure it out before the conclusion.
 For some years now, I've worked on a kernel for Texas
 Instruments calculators called [KnightOS](https://github.com/KnightOS/kernel).
 This kernel is written entirely in assembly, and targets the old-school z80
-processor from back in 1976. This classic processor was built before there was any
+processor from back in 1976. This classic processor was built without any
 concept of protection rings. It's an 8-bit processor, with 150-some instructions
 and (in this application) 32K of RAM and 32K of Flash. This stuff is so old, I
 ended up writing most of the KnightOS toolchain from scratch rather than try to
