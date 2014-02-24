@@ -60,7 +60,7 @@ pre {
 }
 
 h2, h3, h4 {
-    background: #777;
+    background: #428BCA;
     color: #fff;
     padding: 5px 0;
     position: relative;
@@ -71,7 +71,7 @@ h2:before, h2:after, h3:before, h3:after, h4:before, h4:after {
     top: 0;
     bottom: 0;
     width: 10000px;
-    background: #777;
+    background: #428BCA;
     content: '';
 }
 
