@@ -70,7 +70,7 @@ address a[href^="mailto:"]::before {
     float: left;
     background: #eee;
     border: 1px solid #ccc;
-    height: 300px;
+    height: 310px;
 }
 
 .media + * {
