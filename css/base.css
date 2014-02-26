@@ -87,3 +87,8 @@ h2:after, h3:after, h4:after {
     color: #000;
     font-size: 16pt;
 }
+
+pre {
+    max-height: 300px;
+    overflow-x: scroll;
+}
