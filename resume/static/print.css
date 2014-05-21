@@ -7,6 +7,7 @@ body {
     padding: 10px;
     box-shadow: none;
     width: auto;
+    font-size: 10pt;
 }
 
 a::after {

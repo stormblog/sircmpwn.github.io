@@ -95,25 +95,29 @@ bug hid itself whenever this happened.
 I decided to dive into the kernel's getKey function. Here's the start of the
 function, as it appeared at the time:
 
-    getKey:
-        call hasKeypadLock
-        jr _
-        xor a
-        ret
-    _:  push bc
-    ; ...
+{% highlight nasm %}
+getKey:
+    call hasKeypadLock
+    jr _
+    xor a
+    ret
+_:  push bc
+; ...
+{% endhighlight %}
 
 I started going through this code line-by-line, trying to see if there was
 anything here that could concievably touch the thread table. I noticed a minor
 error here, and corrected it without thinking:
 
-    getKey:
-        call hasKeypadLock
-        jr z, _
-        xor a
-        ret
-    _:  push bc
-    ; ...
+{% highlight nasm %}
+getKey:
+    call hasKeypadLock
+    jr z, _
+    xor a
+    ret
+_:  push bc
+; ...
+{% endhighlight %}
 
 The simple error I had corrected: getKey was pressing forward, even when the
 current thread didn't have control of the keyboard hardware. This was a silly
@@ -126,14 +130,16 @@ and the bug was indeed resolved.
 Can you guess what happened here? Here's the other piece of the puzzle to help you
 out, translated more or less into C for readability:
 
-    int applibGetKey() {
-        int key = getKey();
-        if (key == KEY_F5) {
-            launch_threadlist();
-            suspend_thread();
-        }
-        return key;
+{% highlight c %}
+int applibGetKey() {
+    int key = getKey();
+    if (key == KEY_F5) {
+        launch_threadlist();
+        suspend_thread();
     }
+    return key;
+}
+{% endhighlight %}
 
 Two more details you might not have picked up on:
 

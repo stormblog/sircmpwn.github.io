@@ -90,5 +90,5 @@ h2:after, h3:after, h4:after {
 
 pre {
     max-height: 300px;
-    overflow-x: scroll;
+    overflow-x: auto;
 }
