@@ -3,26 +3,19 @@
     <head>
         <meta charset="utf-8" />
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
         <link rel="stylesheet" type="text/css" href="/css/base.css" />
     </head>
     <body>
-        <div class="container">
-            <div class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="/">{{ page.title }}</a>
-                    </div>
-                    <div class="collapse navbar-collapse">
-                        <div class="pull-right muted navbar-text">
-                            This site and all its contents are <a href="http://opensource.org/licenses/MIT">MIT licensed</a>.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {{ content }}
-        </div>
+        <h1>
+            {{ page.title }}
+            {% if page.date %}<small>Published {{ page.date | date_to_string }}</small>{% endif %}
+            {% if page.url != '/index.html' %}
+                <small>on <a href="/">Drew DeVault's blog</a></small>
+            {% endif %}
+        </h1>
+        <p>This site and all its contents are <a href="http://opensource.org/licenses/MIT">MIT licensed</a>.</p>
+        {{ content }}
         <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

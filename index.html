@@ -1,59 +1,23 @@
 ---
 layout: base
-title: Drew DeVault
+title: Drew DeVault's Blog
 ---
 
-<p>I am a software developer. Occasionally, I will compose a post for this blog.</p>
+<p>I write software. Occasionally, I will compose a post for this blog.</p>
 <p>
-<a href="https://twitter.com/sircmpwn">@sircmpwn</a> &mdash;
-<a href="mailto:sir@cmpwn.com">sir@cmpwn.com</a>, <a href="/publickey.txt">F4EA1B88</a>
+    <a href="https://github.com/SirCmpwn">github.com/SirCmpwn</a> &mdash;
+    <a href="https://twitter.com/sircmpwn">twitter.com/sircmpwn</a> &mdash;
+    <a href="mailto:sir@cmpwn.com">mailto:sir@cmpwn.com</a> &mdash;
+    <a href="/publickey.txt">Public key: F4EA1B88</a>
 </p>
-
-<h2>Open Source</h2>
-
-<p>I work on <a href="https://github.com/SirCmpwn">a lot of open source software</a>. Here are some interesting projects of
-mine that could use your help. I accept pull requests on all of my GitHub repositories, so feel free to contribute to anything
-else that interests you.</p>
-
-<div class="media">
-    <div class="post-stub">
-        <a target="_blank" href="https://mediacru.sh"><h2>MediaCrush</h2></a>
-        <p>Need someone to host your video, audio, or images? Want to run your own server for doing the same? I've worked with
-        my friend <a href="https://twitter.com/jdiezlopez">@jdiezlopez</a> to make a cool site for doing just that. We could use
-        help with our enourmous <a href="https://github.com/MediaCrush/MediaCrush/issues?state=open">backlog of GitHub issues</a>,
-        or <a href="https://mediacru.sh/donate">donations</a> to keep the servers online. Site's written in Python, CoffeeScript,
-        and SCSS, so feel free to join in if that's your cup of tea.</p>
-    </div>
-    <div class="post-stub">
-        <a target="_blank" href="https://github.com/KnightOS/kernel"><h2>KnightOS Kernel</h2></a>
-        <p>If you have an interest in the low-level world, you'll love this. This is a kernel (and technically a userspace, but
-        it's pretty bare) for Texas Instruments calcultors, written entirely in z80 assembly. Working on it is a challenge, but
-        it's very fun. It's got a lot of Unix-isms, like a tree-based filesystem, multitasking, and proper memory management.
-        There's lots to do and there's an <a href="http://webchat.freenode.net/?channels=knightos&uio=d4">IRC channel</a> to do
-        it in, if you're interested.</p>
-    </div>
-    <div class="post-stub">
-        <a target="_blank" href="https://github.com/SirCmpwn/Craft.Net"><h2>Craft.Net</h2></a>
-        <p>An open-source implementation of Minecraft, written in C#. Includes a client, server, and a bunch of useful libraries
-        for doing things like editing levels or simulating worlds. It's functional, but it could use a lot of work getting to
-        feature-pairity with the official Minecraft software. If you'd like to help, glance through
-        <a href="https://github.com/SirCmpwn/Craft.Net/issues">the backlog</a> or join the
-        <a href="http://webchat.freenode.net/?channels=craft.net&uio=d4">IRC channel</a>. The exciting work is trying to get things
-        working for Minecraft 1.7.x, which introduced an entirely new networking stack.</p>
-    </div>
-</div>
 
 <h2>Recent Posts</h2>
 
 <div class="media">
 {% for post in site.posts %}
-    {% if post.thumbnail != nil %}
-    <a href="{{ post.url }}" class="pull-left">
-       <img width=64 height=64 src="{{ post.thumbnail }}" /> 
-    </a>
-   {% endif %}
     <div class="post-stub">
-        <a href="{{ post.url }}"><h2>{{ post.title }} <small class="text-muted">{{ post.date | date_to_string }}</small></h2></a>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h3>{{ post.date | date_to_string }}</h3>
         <p>{{ post.excerpt }}</p>
     </div>
 {% endfor %}

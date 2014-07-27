@@ -1,94 +1,21 @@
 html, body {
     overflow-x: hidden;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 body {
-    padding-top: 60px;
     text-align: justify;
 }
 
-.navbar-fixed-top .navbar-inner {
-    padding: 0 20px;
+h1 {
+    margin-top: 0;
+    padding-top: 0;
 }
 
-.media small, .media h4, .media p {
-    padding: 0;
-    margin: 0;
-}
-
-.media-body {
-    margin-bottom: 10px;
-}
-
-pre {
-    line-height: 15px;
-}
-
-#about {
-    margin-left: 5px;
-    border-left: 2px solid #ccc;
-    padding-left: 5px;
-    color: #555;
-    text-align: left;
-    max-width: 500px;
-}
-
-#about h3 {
+h1 small {
     font-size: 14pt;
-    margin: 0;
-}
-
-.post-stub {
-    padding: 20px 0;
-}
-
-.post-stub h2 {
-    margin: 5px 0;
-    padding: 0;
-    background: transparent;
-    color: inherit;
-    font-size: 16pt;
-}
-
-.post-stub:before, .post-stub:after {
-    display: none;
-}
-
-.asciicast, iframe {
-    margin: 2px auto !important;
-    display: block;
-}
-
-h2, h3, h4 {
-    background: #428BCA;
-    color: #fff;
-    padding: 5px 0;
-    position: relative;
-}
-
-h2:before, h2:after, h3:before, h3:after, h4:before, h4:after {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 10000px;
-    background: #428BCA;
-    content: '';
-}
-
-h2:before, h3:before, h4:before {
-    left: 100%;
-}
-
-h2:after, h3:after, h4:after {
-    right: 100%;
-}
-
-.navbar .navbar-brand {
-    color: #000;
-    font-size: 16pt;
 }
 
 pre {
-    max-height: 300px;
-    overflow-x: auto;
+    margin-left: 50px;
 }
