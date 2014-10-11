@@ -9,12 +9,13 @@
     <body>
         <h1>
             {{ page.title }}
+        </h1>
+        <h2>
             {% if page.date %}<small>Published {{ page.date | date_to_string }}</small>{% endif %}
             {% if page.url != '/index.html' %}
                 <small>on <a href="/">Drew DeVault's blog</a></small>
             {% endif %}
-        </h1>
-        <p>This site and all its contents are <a href="http://opensource.org/licenses/MIT">MIT licensed</a>.</p>
+        </h2>
         {{ content }}
         <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -26,5 +27,6 @@
               pageTracker._trackPageview();
             } catch(err) {}
         </script>
+        <p>This site and all its contents are <a href="http://opensource.org/licenses/MIT">MIT licensed</a>.</p>
     </body>
 </html>
