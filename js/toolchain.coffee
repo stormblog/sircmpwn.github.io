@@ -32,14 +32,15 @@ window.toolchain = {
 
 files = []
 
-log_el = document.getElementById('tool-log')
 log = (text) ->
+    log_els = document.querySelectorAll('.tool-log')
     console.log(text)
-    if log_el.innerHTML == ''
-        log_el.innerHTML += text
-    else
-        log_el.innerHTML += '\n' + text
-    log_el.scrollTop = log_el.scrollHeight
+    for log_el in log_els
+        if log_el.innerHTML == ''
+            log_el.innerHTML += text
+        else
+            log_el.innerHTML += '\n' + text
+        log_el.scrollTop = log_el.scrollHeight
 window.ide_log = log
 
 copy_between_systems = (fs1, fs2, from, to, encoding) ->
@@ -116,7 +117,7 @@ run_project = (main) ->
     log("Loading your program into the emulator!")
     if current_emulator != null
         current_emulator.cleanup()
-    current_emulator = new toolchain.ide_emu(document.getElementById('screen'))
+    current_emulator = new toolchain.ide_emu(document.querySelectorAll('.emulator-screen'))
     current_emulator.load_rom(rom.buffer)
     return 0
 
@@ -210,6 +211,11 @@ require(['ide_emu'], (ide_emu) ->
     )
     button.textContent = 'Run'
     el.appendChild(button)
+    textarea = document.createElement('textarea')
+    textarea.className = "form-control tool-log"
+    textarea.rows = 8
+    textarea.setAttribute('disabled', 'disabled')
+    el.parentElement.querySelector('.calculator-wrapper').appendChild(textarea)
 )(el) for el in document.querySelectorAll('.editor')
 
 document.getElementById('install-package').addEventListener('click', (e) ->
@@ -224,17 +230,6 @@ document.getElementById('install-package').addEventListener('click', (e) ->
         install_package(p[0], p[1])
     )
 )(el) for el in document.querySelectorAll('.install-package-button')
-
-document.getElementById('hide-toolchain').addEventListener('click', (e) ->
-    e.preventDefault()
-    to = document.getElementById('tool-log')
-    if e.target.textContent == 'Hide toolchain output'
-        to.style.display = 'none'
-        e.target.textContent = 'Show toolchain output'
-    else
-        to.style.display = 'block'
-        e.target.textContent = 'Hide toolchain output'
-)
 
 window.setInterval(() ->
     if window.current_asic?

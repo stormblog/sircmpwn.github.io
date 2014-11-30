@@ -45,7 +45,14 @@ course, they still have to do it in assembly, but we're [working on
 that](https://github.com/KnightOS/kcc) 😉. Here's a "hello world" you can run in
 your web browser:
 
-<div class="editor" data-source="/sources/helloworld.asm" data-file="main.asm"></div>
+<div class="demo">
+    <div class="editor" data-source="/sources/helloworld.asm" data-file="main.asm"></div>
+    <div class="calculator-wrapper">
+        <div class="calculator">
+            <canvas width="385" height="256" class="emulator-screen"></canvas>
+        </div>
+    </div>
+</div>
 
 We can also install new dependencies on the fly and use them in our programs.
 Here's another program that draws the "hello world" message in a window. You
@@ -54,7 +61,14 @@ should install `core/corelib` first:
 <input type="text" id="package-name" value="core/corelib" />
 <input type="button" id="install-package" value="Install" />
 
-<div class="editor" data-source="/sources/corelib-hello.asm" data-file="main.asm"></div>
+<div class="demo">
+    <div class="editor" data-source="/sources/corelib-hello.asm" data-file="main.asm"></div>
+    <div class="calculator-wrapper">
+        <div class="calculator">
+            <canvas width="385" height="256" class="emulator-screen"></canvas>
+        </div>
+    </div>
+</div>
 
 You can find more packages to try out on
 [packages.knightos.org](https://packages.knightos.org). Here's another example,
@@ -66,7 +80,14 @@ Install:
 <input type="button" class="install-package-button" data-package="core/configlib" value="core/configlib" />
 <input type="button" class="install-package-button" data-package="core/corelib" value="core/corelib" />
 
-<div class="editor" data-source="/sources/fileman.asm" data-file="main.asm"></div>
+<div class="demo">
+    <div class="editor" data-source="/sources/fileman.asm" data-file="main.asm"></div>
+    <div class="calculator-wrapper">
+        <div class="calculator">
+            <canvas width="385" height="256" class="emulator-screen"></canvas>
+        </div>
+    </div>
+</div>
 
 Feel free to edit any of these examples! You can run them again with the Run
 button, of course. These resources might be useful if you want to play with this

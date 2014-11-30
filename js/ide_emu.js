@@ -27,21 +27,24 @@ define(['z80e', '../OpenTI/webui/js/OpenTI/OpenTI'], function(z80e, OpenTI) {
     gen_pixeldata();
 
     function print_lcd(lcd) {
-        var data = lcd_ctx.getImageData(0, 0, 384, 256);
-        var ram = lcd.ram;
-        for (var x = 0; x < (120 * 64) / 8; x++) {
-            var octet = x % 15;
-            if (octet > 11) {
-                continue;
+        for (var i = 0; i < lcd_ctx.length; ++i) {
+            var ctx = lcd_ctx[i];
+            var data = ctx.getImageData(0, 0, 384, 256);
+            var ram = lcd.ram;
+            for (var x = 0; x < (120 * 64) / 8; x++) {
+                var octet = x % 15;
+                if (octet > 11) {
+                    continue;
+                }
+                var line = Math.floor(x / 15) * 4;
+                var tocopy = lcd_data[ram[x]];
+                data.data.set(tocopy, ((line++) * 12 + octet) * (4 * 8 * 4));
+                data.data.set(tocopy, ((line++) * 12 + octet) * (4 * 8 * 4));
+                data.data.set(tocopy, ((line++) * 12 + octet) * (4 * 8 * 4));
+                data.data.set(tocopy, ((line++) * 12 + octet) * (4 * 8 * 4));
             }
-            var line = Math.floor(x / 15) * 4;
-            var tocopy = lcd_data[ram[x]];
-            data.data.set(tocopy, ((line++) * 12 + octet) * (4 * 8 * 4));
-            data.data.set(tocopy, ((line++) * 12 + octet) * (4 * 8 * 4));
-            data.data.set(tocopy, ((line++) * 12 + octet) * (4 * 8 * 4));
-            data.data.set(tocopy, ((line++) * 12 + octet) * (4 * 8 * 4));
+            ctx.putImageData(data, 0, 0);
         }
-        lcd_ctx.putImageData(data, 0, 0);
         update_lcd = null;
     }
 
@@ -71,7 +74,10 @@ define(['z80e', '../OpenTI/webui/js/OpenTI/OpenTI'], function(z80e, OpenTI) {
 
     return function(canvas, ide_log) {
         var self = this;
-        lcd_ctx = canvas.getContext('2d');
+        lcd_ctx = [];
+        for (var i = 0; i < canvas.length; ++i) {
+            lcd_ctx.push(canvas[i].getContext('2d'));
+        }
         this.asic = new OpenTI.TI.ASIC(OpenTI.TI.DeviceType.TI84pSE);
         this.asic.debugger = new OpenTI.Debugger.Debugger(this.asic);
         this.asic.hook.addLCDUpdate(do_update_lcd);
@@ -118,7 +124,9 @@ define(['z80e', '../OpenTI/webui/js/OpenTI/OpenTI'], function(z80e, OpenTI) {
         this.cleanup = function cleanup() {
             clearTimeout(asic_tick);
             clearTimeout(lcd_tick);
-            lcd_ctx.clearRect(0, 0, 385, 256);
+            for (var i = 0; i < lcd_ctx.length; ++i) {
+                lcd_ctx[i].clearRect(0, 0, 385, 256);
+            }
             return;
             /* TODO: this causes assertion errors */
             self.asic.free();
