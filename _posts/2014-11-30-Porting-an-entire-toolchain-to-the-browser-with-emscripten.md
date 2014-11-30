@@ -54,7 +54,7 @@ Here's another program that draws the "hello world" message in a window. You
 should install `core/corelib` first:
 
 <input type="text" id="package-name" value="core/corelib" />
-<button id="install-package">Install</button>
+<input type="button" id="install-package" value="Install" />
 
 <div class="editor" data-source="/sources/corelib-hello.asm" data-file="main.asm"></div>
 
@@ -64,9 +64,9 @@ this one launches the file manager. You'll have to install a few packages for it
 to work:
 
 Install:
-<button class="install-package-button" data-package="extra/fileman">extra/fileman</button>
-<button class="install-package-button" data-package="core/configlib">core/configlib</button>
-<button class="install-package-button" data-package="core/corelib">core/corelib</button>
+<input type="button" class="install-package-button" data-package="extra/fileman" value="extra/fileman" />
+<input type="button" class="install-package-button" data-package="core/configlib" value="core/configlib" />
+<input type="button" class="install-package-button" data-package="core/corelib" value="core/corelib" />
 
 <div class="editor" data-source="/sources/fileman.asm" data-file="main.asm"></div>
 
