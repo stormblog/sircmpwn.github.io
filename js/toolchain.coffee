@@ -96,6 +96,7 @@ load_environment = ->
     callback = () ->
         packages++
         log("Ready to go!") if packages == 2
+        b.style.display = 'inline' for b in document.querySelectorAll('.run-button')
     install_package('core', 'init', callback)
     install_package('core', 'kernel-headers', callback)
 
@@ -203,6 +204,7 @@ require(['ide_emu'], (ide_emu) ->
     xhr.send()
     button = document.createElement('button')
     button.className = 'run-button'
+    button.style.display = 'none'
     button.addEventListener('click', (e) ->
         e.preventDefault()
         ret = run_project(editor.getValue())
