@@ -34,3 +34,11 @@ pre {
 .footnotes a {
     color: #444;
 }
+
+blockquote {
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 0;
+    border-left: 4px #aaa solid;
+}

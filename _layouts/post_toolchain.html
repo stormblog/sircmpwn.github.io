@@ -1,0 +1,27 @@
+---
+layout: base
+showTitle: true
+---
+
+<link rel="stylesheet" type="text/css" href="/css/toolchain.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+<hr />
+{{ content }}
+<div class="calculator-wrapper">
+    <p style="margin: 0; text-align: center; background: #fff"><a href="#" id="hide-toolchain">Hide toolchain output</a></p>
+    <textarea disabled class="form-control" rows=10 placeholder="(toolchain output)" id="tool-log" style="width: 100%;"></textarea>
+    <div class="calculator">
+        <canvas width="385" height="256" id="screen"></canvas>
+    </div>
+</div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+var disqus_shortname = 'drewdevaultblog';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<script data-main="/js/toolchain.js" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js"></script>

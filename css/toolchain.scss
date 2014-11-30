@@ -1,0 +1,40 @@
+---
+---
+
+.editor {
+    height: 400px;
+    margin-bottom: 10px;
+    border: 1px solid #666;
+}
+
+.calculator-wrapper {
+    border-bottom: 1px solid #888;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+
+    .calculator {
+        background: url('http://try.knightos.org/static/skin.png') no-repeat;
+        background-size: 500px;
+        width: 500px;
+        height: 330px;
+        margin: 0 auto;
+        position: relative;
+
+        canvas {
+            position: absolute;
+            left: 100px;
+            top: 105px;
+            width: 300px;
+        }
+    }
+}
+
+.run-button {
+    position: absolute;
+    width: 100px;
+    top: 5px;
+    right: 15px;
+    z-index: 9999;
+}
