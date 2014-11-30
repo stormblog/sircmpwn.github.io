@@ -4,6 +4,8 @@ layout: post_toolchain
 title: Porting an entire desktop toolchain to the browser with Emscripten
 ---
 
+**NOTE: This blog post is a bit broken pending help from GitHub support**
+
 Emscripten is pretty damn cool! It lets you write portable C and cross-compile
 it to JavaScript so it'll run in a web browser. As the maintainer of
 [KnightOS](http://www.knightos.org), I looked to emscripten as a potential means
