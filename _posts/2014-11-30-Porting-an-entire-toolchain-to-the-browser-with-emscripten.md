@@ -9,8 +9,6 @@ it to JavaScript so it'll run in a web browser. As the maintainer of
 [KnightOS](http://www.knightos.org), I looked to emscripten as a potential means
 of reducing the cost of entry for new developers hoping to target the OS.
 
-Side note: apologies to those with narrow displays.
-
 ## Rationale for Emscripten
 
 There are several pieces of software in the toolchain that are required to write
