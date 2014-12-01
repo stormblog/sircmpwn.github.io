@@ -143,9 +143,9 @@ The first thing I did was wrap all of the modules in isolated AMD loaders. You
 can see how some of this ended up looking by visiting the actual scripts
 (warning, big files):
 
-* [scas.js](http://localhost:4000/tools/scas.js)
-* [kpack.js](http://localhost:4000/tools/kpack.js)
-* [genkfs.js](http://localhost:4000/tools/genkfs.js)
+* [scas.js](/tools/scas.js)
+* [kpack.js](/tools/kpack.js)
+* [genkfs.js](/tools/genkfs.js)
 
 That was enough to make it so that they could all run. These are part of a
 toolchain, though, so somehow they needed to share files. Emscripten's [FS
