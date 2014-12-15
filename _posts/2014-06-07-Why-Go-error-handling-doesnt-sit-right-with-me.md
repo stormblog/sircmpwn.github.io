@@ -1,7 +1,7 @@
 ---
 #vim: tw=82
 layout: post
-title: Why Go's error handling doesn't sit right with me
+title: Go's error handling doesn't sit right with me
 ---
 
 I'll open up by saying that I am not a language designer, and I do like a lot of
