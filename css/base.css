@@ -56,11 +56,6 @@ blockquote {
 }
 
 .sidebar, .sidebar a {
-    color: #CCC;
-    transition: color 0.5s ease;
-}
-
-.sidebar:hover, .sidebar:hover a {
     color: #444;
 }
 
