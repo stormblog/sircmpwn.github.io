@@ -130,29 +130,16 @@ check_resources = ->
     load_environment()
 
 downloadKernel = ->
-    log("Finding latest kernel on GitHub...")
-    xhr = new XMLHttpRequest()
-    xhr.open('GET', 'https://api.github.com/repos/KnightOS/kernel/releases')
-    xhr.onload = ->
-        json = JSON.parse(xhr.responseText)
-        release = json[0]
-        rom = new XMLHttpRequest()
-        if release?
-            log("Downloading kernel #{ release.tag_name }...")
-            rom.open('GET', _.find(release.assets, (a) -> a.name == 'kernel-TI84pSE.rom').url)
-        else
-            # fallback
-            log("Downloading kernel")
-            rom.open('GET', 'http://builds.knightos.org/latest-TI84pSE.rom')
-        rom.setRequestHeader("Accept", "application/octet-stream")
-        rom.responseType = 'arraybuffer'
-        rom.onload = () ->
-            window.toolchain.kernel_rom = rom.response
-            log("Loaded kernel ROM.")
-            check_resources()
-        rom.send()
-    xhr.onerror = ->
-    xhr.send()
+    log("Downloading latest kernel...")
+    rom = new XMLHttpRequest()
+    rom.open('GET', 'http://builds.knightos.org/latest-TI84pSE.rom')
+    rom.setRequestHeader("Accept", "application/octet-stream")
+    rom.responseType = 'arraybuffer'
+    rom.onload = () ->
+        window.toolchain.kernel_rom = rom.response
+        log("Loaded kernel ROM.")
+        check_resources()
+    rom.send()
 
 downloadKernel()
 
@@ -215,7 +202,7 @@ require(['ide_emu'], (ide_emu) ->
     el.appendChild(button)
     textarea = document.createElement('textarea')
     textarea.className = "form-control tool-log"
-    textarea.rows = 8
+    textarea.rows = 4
     textarea.setAttribute('disabled', 'disabled')
     el.parentElement.querySelector('.calculator-wrapper').appendChild(textarea)
 )(el) for el in document.querySelectorAll('.editor')

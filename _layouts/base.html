@@ -3,30 +3,13 @@
     <head>
         <meta charset="utf-8" />
         <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
         <link rel="stylesheet" type="text/css" href="/css/base.css" />
     </head>
     <body>
-        <h1>
-            {{ page.title }}
-        </h1>
-        <h2>
-            {% if page.date %}<small>Published {{ page.date | date_to_string }}</small>{% endif %}
-            {% if page.url != '/index.html' %}
-                <small>on <a href="/">Drew DeVault's blog</a></small>
-            {% endif %}
-        </h2>
-        {{ content }}
-        <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-        </script>
-        <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-37292778-1");
-              pageTracker._trackPageview();
-            } catch(err) {}
-        </script>
-        <p>This site and all its contents are <a href="http://opensource.org/licenses/MIT">MIT licensed</a>.</p>
+        <div class="container">
+            {{ content }}
+        </div>
     </body>
 </html>
