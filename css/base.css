@@ -26,7 +26,7 @@ h1 small {
 }
 
 pre {
-    margin: 10px 50px;
+    margin: 10px 40px;
 }
 
 .footnotes::before {
@@ -69,4 +69,8 @@ blockquote {
 
 .sidebar h4, h5 {
     margin: 5px 0;
+}
+
+code {
+    color: #000;
 }
