@@ -8,6 +8,18 @@ body {
     background: #F6F7F9;
 }
 
+iframe[src*="youtube"] {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
 a {
     color: #444;
     text-decoration: underline;
