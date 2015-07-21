@@ -182,11 +182,11 @@ Here are some problems I ran into, and the fluxy solution to each.
 You have a list of DNS records to show the user, but they're hanging out on the
 server instead of in JavaScript objects. Here's how you accomodate for this:
 
-* When you use a store, call `Store.fetchIfNeeded()` first.
+* When you use a store, call `Store.fetchIfNecessary()` first.
 * When you pull data from the store, expect `null` and handle this elegantly.
 * When the initial fetch finishes in the store, raise a change event.
 
-From `fetchIfNeeded` in the store, go do the request unless it's in progress or
+From `fetchIfNecessary` in the store, go do the request unless it's in progress or
 done. On the view side, show a loading spinner or something if you get `null`.
 When the change event happens, whatever code set the state of your component
 initially will be re-run, and this time it won't get `null` - deal with it
