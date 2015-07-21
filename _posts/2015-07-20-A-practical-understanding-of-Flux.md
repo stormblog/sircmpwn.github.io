@@ -121,7 +121,8 @@ let store = new UserStore();
 export default new UserStore();
 {% endhighlight %}
 
-Yeah, that's all there is to it. You use it like this:
+Yeah, that's all there is to it. Each store should be a singleton. You use it
+like this:
 
 {% highlight javascript %}
 import UserStore from "whatever/UserStore";
