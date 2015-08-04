@@ -99,17 +99,17 @@ export class UserStore {
         Dispatcher.register(this.action);
     }
 
-    get Users {
+    get Users() {
         return this._users;
     }
 
     action(payload) {
         switch (payload.action) {
         case "ACCOUNTS.CREATE.USER":
-            users.push({ 
-                payload.username,
-                payload.email,
-                payload.password
+            this._users.push({ 
+                "username": payload.username,
+                "email": payload.email,
+                "password": payload.password
             });
             raiseChangeEvent(); // Exercise for the reader
             break;
