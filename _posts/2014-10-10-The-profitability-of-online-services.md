@@ -87,6 +87,7 @@ around until people realize that Imgur really does suck.
 
 *2015-09-20 update*
 
+* mediacru.sh shut down (out of money)
 * pomf.se shut down (out of money)
 * minus.com heavily selling out
 
