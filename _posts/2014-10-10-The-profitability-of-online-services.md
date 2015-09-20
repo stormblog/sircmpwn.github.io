@@ -85,6 +85,16 @@ is open source, so the next service can skip R&D and start being awesome
 immediately. Even with all of that, though, all I can think of doing is sticking
 around until people realize that Imgur really does suck.
 
+*2015-09-20 update*
+
+* pomf.se shut down (out of money)
+* minus.com heavily selling out
+
+I have started a private service called [sr.ht](https://sr.ht), which I aim to
+use to fix the problem by only letting my friends and I use it. It has
+controlled growth and won't get too big and too expensive. It's on Github if you
+want to [use it](https://github.com/SirCmpwn/sr.ht).
+
 [^1]: [Original Imgur home page](https://web.archive.org/web/20090225014924/http://imgur.com/)
 [^2]: [Imgur on Alexa](http://www.alexa.com/siteinfo/imgur.com)
 [^3]: [Imgur redirects "direct" links based on referrals](https://dillpickle.github.io/imgur-please-dont-be-the-next-tinypic-or-imageshack.html)
