@@ -7,7 +7,7 @@ title: On the profitability of image hosting websites
 I've been doing a lot of thought about whether or not it's even possible to both
 run a simple website *and* turn a profit from it *and* maintain a high quality
 of service. In particular, I'm thinking about image hosts, considering that I
-[run one](https://mediacru.sh) (a rather unprofitable one, too), but I would
+run one (a rather unprofitable one, too), but I would
 think that my thoughts on this matter apply to more kinds of websites. That
 being said, I'll just talk about media hosting because that's where I have
 tangible expertise.
