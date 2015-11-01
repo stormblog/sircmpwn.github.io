@@ -27,20 +27,7 @@ layout: base
         <p>
             for <a href="/">Drew DeVault's blog</a>
         </p>
-        <p>
-        <a href="https://twitter.com/sircmpwn">Twitter</a>
-        </p>
-        <h3>Other Recent Posts</h3>
-        {% for post in site.posts limit: 3 %}
-            <div class="post-stub">
-                <h4><a href="{{ post.url }}">{{ post.title }}</a></h5>
-                <h5>{{ post.date | date_to_string }}</h5>
-            </div>
-        {% endfor %}
-        {% else %}
-        <p style="text-align: center">
-            <a href="https://drewdevault.com/donate"><img src="https://drewdevault.com/donate/static/donate-with-fosspay.png" alt="Donate with fosspay" /></a>
-        </p>
+        {% endif %}
         <p>I write software. Occasionally, I will compose a post for this blog.</p>
         <p>
             <a href="https://github.com/SirCmpwn">github.com/SirCmpwn</a>
@@ -54,6 +41,14 @@ layout: base
         <p>
             <a href="/publickey.txt">Public key: F4EA1B88</a>
         </p>
+        {% if page.url != '/index.html' %}
+        <h3>Other Recent Posts</h3>
+        {% for post in site.posts limit: 3 %}
+            <div class="post-stub">
+                <h4><a href="{{ post.url }}">{{ post.title }}</a></h5>
+                <h5>{{ post.date | date_to_string }}</h5>
+            </div>
+        {% endfor %}
         {% endif %}
         <h3>My Work</h3>
         <p>
