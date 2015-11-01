@@ -84,9 +84,11 @@ Here's a short, incomplete list of important FOSS projects using IRC:
 * ReactJS
 * NeoVim
 * Node.js
+* everyone else
 
 The list goes on for a while. Just fill in another few hundred bullet points
-with your imagination.
+with your imagination. Seriously, just join `#<project-name>` on Freenode. It
+probably exists.
 
 ## IRC is better for your company, too
 
