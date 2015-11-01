@@ -14,7 +14,8 @@ phenomenon before it takes off any more.
 Slack...
 
 * is closed source
-* has only one client
+* has only one client (*update: more clients have been pointed out to me, see
+    the errata at the bottom of this article*)
 * is a walled garden
 * requires users to have a different tab open for each project they want to be
     involved in
@@ -111,6 +112,26 @@ after I get help with whatever issue I came to you for, and contribute back by
 helping others as I idle in your channel until the end of time. On Slack, I
 leave as soon as I'm done getting help because tabs in my browser are precious
 real estate.
+
+## Updates
+
+Addressing feedback on this article.
+
+**Slack IRC bridge**: Slack provides an IRC bridge that lets you connect to
+Slack with an IRC client. I've used it - it's a bit of a pain in the ass to set
+up, and once you have it, it's not ideal. They did put some effort into it,
+though, and it's usable. I'm not suggesting that Slack as a product is worse
+than IRC - I'm just saying that it's not better than IRC for FOSS projects, and
+probably not that much better for companies.
+
+**Clients**: Slack has several clients that use the API. That being said, there
+are fewer of them and for fewer platforms than IRC clients, and there are more
+libraries around IRC than there are for Slack. Also, the bigger issue is that I
+already have an IRC client, which I use for the hundreds of FOSS projects that
+use IRC, and I don't want to add a Slack client for one or two projects.
+
+**Gitter**: Gitter is bad for many of the same reasons Slack is. Please don't
+use it over IRC.
 
 [^1]: [Slack is quietly, unintentionally killing IRC - The Next Web](http://thenextweb.com/insider/2015/03/24/slack-is-quietly-unintentionally-killing-irc/)
 [^2]: [RFC 1459](https://www.rfc-editor.org/rfc/rfc1459.txt)
