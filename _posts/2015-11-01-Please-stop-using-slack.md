@@ -14,8 +14,7 @@ phenomenon before it takes off any more.
 Slack...
 
 * is closed source
-* has only one client (*update: more clients have been pointed out to me, see
-    the errata at the bottom of this article*)
+* has only one client (*update: errata at the bottom of this article*)
 * is a walled garden
 * requires users to have a different tab open for each project they want to be
     involved in
