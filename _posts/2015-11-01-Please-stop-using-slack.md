@@ -22,11 +22,11 @@ Slack...
 
 The last one is a real stinker. Slack is not a tool built for open source
 projects to use for communication with their userbase. It's a tool built for
-teams and it is ill-suited to this use-case. However, the real issue I take with
-it is that Slack is not IRC. In fact, Slack has gone on record as saying that it
-*cannot* support this sort of use-case: "it’s great that people are putting
-Slack to good use" but unfortunately "these communities are not something we
-have the capacity to support given the growth in our existing business." [^1]
+teams and it is ill-suited to this use-case. In fact, Slack has gone on record
+as saying that it *cannot* support this sort of use-case: "it’s great that
+people are putting Slack to good use" but unfortunately "these communities are
+not something we have the capacity to support given the growth in our existing
+business." [^1]
 
 ## What is IRC?
 
