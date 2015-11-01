@@ -132,7 +132,9 @@ use IRC, and I don't want to add a Slack client for one or two projects.
 **Gitter**: Gitter is bad for many of the same reasons Slack is. Please don't
 use it over IRC.
 
-**ircv3**: Check it out: http://ircv3.net/
+**ircv3**: Check it out: [ircv3.net](http://ircv3.net)
+
+**irccloud**: Is really cool and solves all of the problems. [irccloud.com](https://www.irccloud.com/)
 
 [^1]: [Slack is quietly, unintentionally killing IRC - The Next Web](http://thenextweb.com/insider/2015/03/24/slack-is-quietly-unintentionally-killing-irc/)
 [^2]: [RFC 1459](https://www.rfc-editor.org/rfc/rfc1459.txt)
