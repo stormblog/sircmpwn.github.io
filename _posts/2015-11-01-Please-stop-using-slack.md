@@ -40,9 +40,9 @@ IRC, or Internet Relay Chat...
 
 ### No, IRC is not dead
 
-I often hear that IRC is dead. Even my dad pokes fun at it, but not after I
-pointed out that he still uses HTTP. Despite the usual shtick from the valley,
-old is not necessarily a synonym for bad.
+I often hear that IRC is dead. Even my dad pokes fun at me for using a 30 year
+old protocol, but not after I pointed out that he still uses HTTP. Despite the
+usual shtick from the valley, old is not necessarily a synonym for bad.
 
 IRC has been around since forever. You may think that it's not popular anymore,
 but there are still tons of people using it. There are 87,762 users *currently
