@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/sircmpwn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://drewdevault.com
+  * I am sircmpwn (https://keybase.io/sircmpwn) on keybase.
+  * I have a public key with fingerprint 1E0A 3290 FCAF 4A11 8B5D  687F 83A9 44D9 F4EA 1B88
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101811286c7531fa6be64b32db591b8a1ab0eec5298512dd26b7ca720808a0f79e90a",
+            "fingerprint": "1e0a3290fcaf4a118b5d687f83a944d9f4ea1b88",
+            "host": "keybase.io",
+            "key_id": "83a944d9f4ea1b88",
+            "kid": "0101811286c7531fa6be64b32db591b8a1ab0eec5298512dd26b7ca720808a0f79e90a",
+            "uid": "2575fec24a5fe8a8c555a9532842b900",
+            "username": "sircmpwn"
+        },
+        "service": {
+            "hostname": "drewdevault.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1447970209,
+    "expire_in": 157680000,
+    "prev": "41c135c6f7305cb67b17a6078e6eae4a04f3824fb11fad2a6b5495f5e3cc8014",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owGtUm1QVFUY3sVlY5cPwRQwa4xbDV8Lc78/VqeiSCgiSgiBkvXce8/FK8vueu8C
+IiGMjIKslSLyA2b8SMvUEYFMiIkhhxompYHGIJgoEG0YVGbMIrAEupexf/3s/Hnn
+vOd5nvO8z7yHglcYAozVZ5NH/7i9rtZ4bZo3ZL/xyvlyhHeLZYi9HCmEywU6Rah6
+HYWyiNgRFEMxFsNwlhYYisAkQPOQJnkCF3mKw3gWYIBHIRQonGMpDBdFnOYZATA4
+yqIsQCWGgxwKEBsiya4CqHgU2eXVZDGIAgLnUEkAEgkwjOUpkWYZiSUAR5IiJ5EQ
+aOqsRtzuVnWGZo4HKkyU3VpPuziW7f0H/n/2Xbwsh1MMJUEBJ4FWWMAKFEUBjiJw
+lsR5DkV1oAoVFyiCGlqVFaHIU+pCKmyI1i2RBagHq0/yCCEqsFSEJaDY6U0U3EUa
+3aO4vW7B7dQet3u9HtWuk71lHh1dCnnHIx0HL7tELUqNUQIVVXa7EDumIQWvrAtj
+JMlwDIqjnA2BuzyyAh2yjqAYmkW1o/8DSzRJEhOwdwlKoCWGQCmBpxkeYwCNMiyk
+IYAkQEmJYHFS4jEtPBHX8qNIjpIoSAgCi2Ikoo+20+XWxHHNKChYnrvABbzFCkQq
+rAf8njQZjAEGs7+fvmUGqyX039XbELhyybkhyBwyrvRW1Fks6t2BB/y990LCH+/7
+/udJ5v4I86LPOmc0pGZmrb9B9WVDW1bHViW3Lqa7dvfp2b8qB9+2LqTVrL94ayh3
+H37xo8zV6bPtp7NiikuYvPTatMCckWDp6IXUbZv5+IPlrKWt/vWiX1oWkwapO6kd
+loa7vtbjDlM0PHv1zElltX2gx3yYqG85sHTrQ9+e2I/bxAxLotwbsfucKbwuiohc
+WJQaBtZurHLGtbbVz37Rg1SZLx87kTMTkXLhRNfUW52RoU1hYzm+kAeg2vocs4S+
+M76zZqHoXt2d/OmH5hU7EmhHVrt8KaO/I/l41MhDJqXs+S3T1/duSkgvDJqpmGiw
++5o6Mo0TAd98UtD7w9XvNgVlZOZ9Nv7+lZlV3GhXTeWzPu+hHxOjuuObv+081pLV
+tCV68qmwL//On2+MGWy6sjl9LjopL3uyat2vZ0ztX605ZwpU9kDj1g/Sa56IDF+I
+HB8NbsufqG8+tZRwozolAzn4WsUzbyYn3r/9E3CuTa5sDL8Wm/17vZ9tR2BSdX+o
+Ym89Mv/nSyM9a5wn02yDU6OzvzXvj1u5tGjOHcuP9gybwsK6Dheil/Ymj32673x3
+79MvXI9S/f2TWiOsG+e+bpYWxFf7bvbFjvZO+T/2cveiEA87t6nNRyICkVMBu4bm
+h2/OtcLLR5OGGz9X41b1D/0D
+=aAgr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sircmpwn
+
+==================================================================
