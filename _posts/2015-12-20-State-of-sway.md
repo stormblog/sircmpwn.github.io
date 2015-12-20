@@ -13,7 +13,7 @@ tracking](https://github.com/SirCmpwn/sway/issues/2), 51 are now supported, and
 I've been using sway as my daily driver for a while now. Today, sway looks like
 this:
 
-![](https://sr.ht/NCx_.png)
+[![](https://sr.ht/NCx_.png)](https://sr.ht/NCx_.png)
 
 For those who are new to the project, [sway](https://github.com/SirCmpwn/sway)
 is an i3-compatible Wayland compositor. That is, your existing
