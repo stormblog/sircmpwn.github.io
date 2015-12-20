@@ -30,7 +30,7 @@ started to as well. What's happened since then? Well:
 
 * Floating windows
 * Multihead support
-* XDG complaint config
+* XDG compliant config
 * Fullscreen windows
 * gaps
 * IPC
