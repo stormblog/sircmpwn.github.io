@@ -43,7 +43,7 @@ I did have to make a couple of changes to serial-agetty@.service, though:
     ExecStart=-/sbin/agetty -h -L 19200 %I vt220
 
 This specifies the TERM variable as "vt220" and sets the baud rate to 19200. I
-had to also set the baud rate in the terminal's settings to 19200 buad as well,
+had to also set the baud rate in the terminal's settings to 19200 baud as well,
 to get the fastest possible terminal.
 
 I eventually got into the habit of logging into the terminal with the LK201,
