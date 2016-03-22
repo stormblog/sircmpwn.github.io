@@ -198,4 +198,5 @@ Which spawns a terminal whose window title is __VT220 running tmux attached to
 the session running on the terminal. The for_window rule I added to my sway
 config automatically moves this to the VT220 fake output and tada! It works. Now
 I have a nice and comfortable way to use my terminal to read emails at work. Now
-if only I could convince people to stop sending me HTML emails!
+if only I could convince people to stop sending me HTML emails! I just bought a
+second VT220 for use at home, too. Life's good~
