@@ -178,4 +178,4 @@ being pressed.
 
 The debugging described by this blog post took approximately three weeks.
 
-Discussion on Hacker News: [1](https://news.ycombinator.com/item?id=7688700)
+[Discussion on Hacker News](https://news.ycombinator.com/item?id=7688700)

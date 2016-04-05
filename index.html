@@ -4,11 +4,16 @@ title: Drew DeVault's Blog
 ---
 
 <div class="media">
-{% for post in site.posts %}
-    <div class="post-stub">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <h3>{{ post.date | date_to_string }}</h3>
-        {{ post.excerpt }}
-    </div>
+{% for post in site.posts limit:5 %}
+{% include post-stub.html post=post %}
 {% endfor %}
 </div>
+
+{% if site.posts.size > 5 %}
+<div class="pull-right" style="margin-bottom: 2rem;">
+    <a href="/archive/page2/" class="btn btn-default">
+        Page 2
+        <i class="fa fa-caret-right"></i>
+    </a>
+</div>
+{% endif %}

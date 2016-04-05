@@ -201,4 +201,4 @@ I have a nice and comfortable way to use my terminal to read emails at work. Now
 if only I could convince people to stop sending me HTML emails! I just bought a
 second VT220 for use at home, too. Life's good~
 
-Discussion on Hacker News: [1](https://news.ycombinator.com/item?id=11339909)
+[Discussion on Hacker News](https://news.ycombinator.com/item?id=11339909)
