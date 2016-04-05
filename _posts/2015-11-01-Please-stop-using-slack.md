@@ -112,6 +112,9 @@ helping others as I idle in your channel until the end of time. On Slack, I
 leave as soon as I'm done getting help because tabs in my browser are precious
 real estate.
 
+Discussion on Hacker News: [1](https://news.ycombinator.com/item?id=10486541)
+[2](https://news.ycombinator.com/item?id=11013136)
+
 ## Updates
 
 Addressing feedback on this article.

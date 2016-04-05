@@ -177,3 +177,5 @@ right to know what keys were being pressed, would not know that they key was sti
 being pressed.
 
 The debugging described by this blog post took approximately three weeks.
+
+Discussion on Hacker News: [1](https://news.ycombinator.com/item?id=7688700)
