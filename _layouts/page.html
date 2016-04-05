@@ -4,14 +4,14 @@ layout: base
 <div class="row">
     <div class="col-md-7">
         <h1>
+            <a class="rss pull-right" href="/feed.xml"><img src="/rss.png" alt="RSS" /></a>
             {{ page.title }}
         </h1>
         <hr />
         {{ content }}
     </div>
     <div class="col-md-3 col-md-offset-2 sidebar text-left">
-        <a class="rss pull-right" href="/feed.xml"><img src="/rss.png" alt="RSS" /></a>
-        {% if page.url != '/index.html' %}
+        {% if page.url != '/' %}
         <p>
             {% if page.date %}Published {{ page.date | date_to_string }}{% endif %}
         </p>
@@ -21,15 +21,19 @@ layout: base
         {% endif %}
         <p>I write software. Occasionally, I will compose a post for this blog.</p>
         <p>
-            <a href="https://github.com/SirCmpwn">github.com/SirCmpwn</a>
+            <i class="fa fa-github"></i>
+            <a href="https://github.com/SirCmpwn">SirCmpwn</a>
         </p>
         <p>
-            <a href="https://twitter.com/sircmpwn">twitter.com/sircmpwn</a>
+            <i class="fa fa-twitter"></i>
+            <a href="https://twitter.com/sircmpwn">SirCmpwn</a>
         </p>
         <p>
+            <i class="fa fa-pencil"></i>
             <a href="mailto:sir@cmpwn.com">sir@cmpwn.com</a>
         </p>
         <p>
+            <i class="fa fa-lock"></i>
             <a href="/publickey.txt">Public key: F4EA1B88</a>
         </p>
         {% if page.url != '/' %}
