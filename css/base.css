@@ -1,8 +1,14 @@
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(/fonts/RobotoSlab-Regular.woff2) format('woff2');
+}
+
 html, body {
     overflow-x: hidden;
-    font-family: "serif";
-    font-size: 14pt;
-    line-height: 1.4;
+    font-family: "Roboto Slab";
+    font-size: 13pt;
 }
 
 body {
