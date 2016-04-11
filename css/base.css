@@ -1,6 +1,8 @@
 html, body {
     overflow-x: hidden;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "serif";
+    font-size: 14pt;
+    line-height: 1.2;
 }
 
 body {
@@ -90,6 +92,14 @@ blockquote {
 
 .sidebar h4, h5 {
     margin: 5px 0;
+}
+
+.sidebar h4 {
+    font-weight: bold;
+}
+
+.sidebar h5 {
+    font-size: 12pt;
 }
 
 code {
