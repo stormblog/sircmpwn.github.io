@@ -2,13 +2,13 @@
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(/fonts/RobotoSlab-Regular.woff2) format('woff2');
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(/fonts/RobotoSlab-Regular.ttf);
 }
 
 html, body {
     overflow-x: hidden;
     font-family: "Roboto Slab";
-    font-size: 13pt;
+    font-size: 11pt;
 }
 
 body {
