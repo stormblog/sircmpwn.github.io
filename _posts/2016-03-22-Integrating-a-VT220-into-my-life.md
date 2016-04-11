@@ -188,7 +188,7 @@ in sway that it would try to use the output handle to manipulate a real output,
 I changed to to avoid doing so if the handle is UINTPTR_MAX. Then I added this
 to my sway config:
 
-   for_window [title="__VT220"] move window to workspace __VT220 
+    for_window [title="__VT220"] move window to workspace __VT220 
 
 And run this command when sway starts:
 
