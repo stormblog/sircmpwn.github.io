@@ -8,7 +8,7 @@ A lot of people have come to hate email, and not without good reason. I don't
 hate using email, and I attribute this to better email habits. Unfortunately,
 most email clients these days lead users into bad habits that probably
 contribute to the sad state of email in 2016. The biggest problem with email is
-the wide spread use of HTML email.
+the widespread use of HTML email.
 
 Compare email to snail mail. You probably throw out most of the mail you get -
 it's all junk, ads. Think about the difference between snail mail you read and
