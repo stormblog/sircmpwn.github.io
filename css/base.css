@@ -95,6 +95,7 @@ blockquote {
     padding-bottom: 3px;
     margin-left: 0;
     border-left: 4px #aaa solid;
+    font-size: 11pt;
 }
 
 .sidebar {
