@@ -24,6 +24,7 @@ html, body {
 
 body {
     background: #F6F7F9;
+    padding-bottom: 2rem;
 }
 
 iframe[src*="youtube"] {
@@ -122,4 +123,8 @@ blockquote {
 .btn {
     border-radius: 0;
     text-decoration: none;
+}
+
+em {
+    font-style: italic;
 }
