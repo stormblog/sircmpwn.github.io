@@ -64,9 +64,9 @@ to surf the web.
 I also use browser extensions to subvert tracking and ads. Ad networks have
 severely fucked themselves by this point - I absolutely never trust any ads on
 the web, and never will, period. Use software like
-[uBlock](https://github.com/gorhill/uBlock) get rid of trackers (and speed up
-the web, bonus!). I also block lots of trackers in my /etc/hosts file - [check
-this out](https://github.com/StevenBlack/hosts). Also check out
+[uBlock](https://github.com/gorhill/uBlock) to get rid of trackers (and speed
+up the web, bonus!). I also block lots of trackers in my /etc/hosts file -
+[check this out](https://github.com/StevenBlack/hosts). Also check out
 [AdAway](https://free-software-for-android.github.io/AdAway/) for Android.
 
 These changes help to remove your need to trust that corporate interests will
