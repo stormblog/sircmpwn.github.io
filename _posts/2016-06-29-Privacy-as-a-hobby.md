@@ -11,7 +11,7 @@ subvert that right](http://www.apple.com/customer-letter/). I figure that we'd
 better exercise that right while we have it, so that we know how to keep
 exercising it once it's illegal and all the information about it dries up.
 
-One particular annoying coworker often brings up, "what do you have to hide?"
+One particularly annoying coworker often brings up, "what do you have to hide?"
 Though it would defeat the purpose to explain what I'm hiding, let's assume that
 what I'm hiding is benign, at least legally speaking. I'm sure you can
 understand why I don't want `~/Porn` to be public information should my
