@@ -38,7 +38,7 @@ unfavorable secrets leaked. Human nature might lead them to look on my case
 unfavorably if they found out about all the tentacle porn or erotic Harry
 Potter fanfics I've been secretly writing. Maybe an investigator finds something
 they don't understand, like a private key, and it ends up being exposed through
-the proceedings. Maybe this private key proves that I'm Satoshi Nakamodo[^3] and
+the proceedings. Maybe this private key proves that I'm Satoshi Nakamoto[^3] and
 my life is threatened when the case is closed because of it.
 
 To the government: **stay the fuck out of my right to encrypt**, or, as I
