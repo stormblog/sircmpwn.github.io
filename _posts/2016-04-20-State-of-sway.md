@@ -1,5 +1,8 @@
 ---
 # vim: tw=80
+# Commands used to generate these stats:
+# LoC per author: git ls-tree -r -z --name-only HEAD -- */*.c | xargs -0 -n1 git blame --line-porcelain HEAD |grep  "^author "|sort|uniq -c|sort -nr
+# Commits per author: git shortlog
 title: State of Sway - April 2016
 layout: post
 ---
