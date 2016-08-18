@@ -33,7 +33,7 @@ overview of how to do this:
    /boot
 1. Create a filesystem on /boot
 1. (optional) Securely erase all of the existing data on your disks with `dd
-   if=/dev/urandom of=/dev/sdXY bs=4096`
+   if=/dev/zero of=/dev/sdXY bs=4096`
 1. Set up encryption for your encrypted partitions with `cryptsetup luksFormat
    /dev/sdXX`
 1. Open the encrypted volumes with `cryptsetup open /dev/sdXX [name]`
