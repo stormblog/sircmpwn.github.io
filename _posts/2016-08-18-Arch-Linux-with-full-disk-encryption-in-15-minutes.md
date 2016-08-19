@@ -27,7 +27,10 @@ video going over this process for Ubuntu as well.
 <div class="clearfix"></div>
 
 The video goes into detail on each of these steps, but here's the high level
-overview of how to do this:
+overview of how to do this. Always check the latest version of the [Install
+Guide](https://wiki.archlinux.org/index.php/Installation_guide) and the
+[dm-crypt](https://wiki.archlinux.org/index.php/Dm-crypt) page on the Arch Wiki
+for the latest procedure.
 
 1. Partition your disks with gdisk and be sure to set aside a partition for
    /boot
