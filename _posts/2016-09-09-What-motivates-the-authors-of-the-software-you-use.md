@@ -5,7 +5,7 @@ layout: post
 ---
 
 We face an important choice in our lives as technophiles, hackers, geeks: the
-choice between proprietary software and free/open source[^1] software. What
+choice between proprietary software and free/open source software. What
 platforms we choose to use are important. We have a choice between Windows, OS
 X, and Linux (not to mention the several less popular choices). We choose
 between Android or iOS. We choose hardware that requires nonfree drivers or ones
@@ -24,11 +24,11 @@ might place ads on it, sell your personal information, etc. When Cloud Storage
 Incorporated is sold to Somewhat Less Trustworthy Business, who's to say that
 your data is in good hands?
 
-In the case of most open source software, however, things are different. The
-decisions the developers make are generally working in the interests of the
-user. In open source, people work as people, not as companies. You can find
-the name and email address of the person who wrote a particular feature and
-send them bugs and questions.
+In the case of most open source[^1] software, however, things are different.
+The decisions the developers make are generally working in the interests of the
+user. In open source, people work as people, not as companies. You can find the
+name and email address of the person who wrote a particular feature and send
+them bugs and questions.
 
 An open source Facebook wouldn't be rearranging and filtering your timeline to
 best suit their advertisers interests. An open source iCloud would include
