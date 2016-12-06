@@ -145,7 +145,7 @@ network already knows its IP address and starts using it right away. They may
 also be **dynamic**, and are allocated by some computer on the network with the
 **DHCP** protocol.
 
-IPsec also lives in layer 5.
+IPsec also lives in layer 3.
 
 ## 4: Transport Layer
 
