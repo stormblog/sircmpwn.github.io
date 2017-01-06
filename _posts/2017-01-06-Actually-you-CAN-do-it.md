@@ -53,7 +53,7 @@ person who is now fixing their own bugs and improving the software for everyone.
 That's a much better outcome than having to waste our own time on a task we
 aren't interested in.
 
-It might be hard, but hey, it'll be hard for us too. You'll learn and be better
+It might be hard, but hey, it'd be hard for us too. You'll learn and be better
 for it. Wouldn't it be nice to add *[language you don't know]* or *[library you
 don't know]* to your resume, anyway? If you're concerned about the scope of your
 problem, how about asking about the low hanging fruit so you have easier tasks
