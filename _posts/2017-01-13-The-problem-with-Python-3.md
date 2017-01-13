@@ -95,7 +95,8 @@ Yes it can. Just stop treating them like strings:
 >>>open(b'test-\ud800.txt', 'w').close()
 ```
 
-Note the use of bytes as the file name, not str.
+Note the use of bytes as the file name, not str. \ud800 is equivalent to
+\xd8\x00, which is unrepresentable as UTF-8.
 
 ```python
 >>> [open(f, 'r').close() for f in os.listdir(b'.')]
