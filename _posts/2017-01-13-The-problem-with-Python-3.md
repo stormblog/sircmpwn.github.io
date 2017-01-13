@@ -14,7 +14,7 @@ The basic problem many people seem to have with Python 3's strings arises when
 they write code that treats bytes like a string, because that's how it was in
 Python 2. Let me make this as clear as possible:
 
-<div class="loud">bytes is not a string</div>
+<div class="loud">a bytes is not a string</div>
 
 <style>
 .loud {
@@ -32,7 +32,7 @@ right - bytes is an array of unsigned 8 bit integers, or as the name would
 imply, bytes.  If you *ever* do string operations against bytes, you are Doing
 It Wrong because bytes are not strings.
 
-<div class="loud">bytes is not a string</div>
+<div class="loud">a bytes is not a string</div>
 
 It's entirely possible that your bytes contains an *encoded representation* of a
 string. That encoding could be ASCII, UTF-8, UTF-32, etc. These encodings are
@@ -44,7 +44,7 @@ encoding you want: `bytes.decode('latin-1')`. If you want bytes again, use
 have a bytes that contains an encoded string, your first order of business is
 decoding it.
 
-<div class="loud">bytes is not a string</div>
+<div class="loud">a bytes is not a string</div>
 
 Let's look at some examples of why this matters in practice:
 
@@ -123,11 +123,11 @@ with open('some utf8 file', 'wb') as f:
   f.write(text.encode('utf-8'))
 ```
 
-<div class="loud">bytes is not a string</div>
+<div class="loud">a bytes is not a string</div>
 
-<div class="loud">bytes is not a string</div>
+<div class="loud">a bytes is not a string</div>
 
-<div class="loud">bytes is not a string</div>
+<div class="loud">a bytes is not a string</div>
 
 Python 2's shitty design has broken your mindset. Unlearn it.
 
