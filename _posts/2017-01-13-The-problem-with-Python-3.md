@@ -118,7 +118,7 @@ unsigned 8 bit integers to it?
 Sure it does.
 
 ```python
-with open('some latin-1 file', 'rb) as f:
+with open('some latin-1 file', 'rb') as f:
   text = f.read().decode('latin-1')
 with open('some utf8 file', 'wb') as f:
   f.write(text.encode('utf-8'))
