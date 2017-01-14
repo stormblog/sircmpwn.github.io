@@ -92,10 +92,10 @@ learn how it works.
 Yes it can. Just stop treating them like strings:
 
 ```python
->>>open(b'test-\xd8\x00.txt', 'w').close()
+>>>open(b'test-\xd8\x01.txt', 'w').close()
 ```
 
-Note the use of bytes as the file name, not str. \xd8\x00 is unrepresentable as
+Note the use of bytes as the file name, not str. \xd8\x01 is unrepresentable as
 UTF-8.
 
 ```python
