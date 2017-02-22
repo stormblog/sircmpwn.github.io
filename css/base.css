@@ -142,3 +142,7 @@ em {
     font-style: italic;
     font-size: 10pt;
 }
+
+hr {
+    border-color: #999;
+}
