@@ -85,11 +85,11 @@ is open source, so the next service can skip R&D and start being awesome
 immediately. Even with all of that, though, all I can think of doing is sticking
 around until people realize that Imgur really does suck.
 
-*2015-09-20 update*
+*2017-03-07 update*
 
 * mediacru.sh shut down (out of money)
 * pomf.se shut down (out of money)
-* minus.com heavily selling out
+* minus.com shut down after going down the decline described in this post
 
 I have started a private service called [sr.ht](https://sr.ht), which I aim to
 use to fix the problem by only letting my friends and I use it. It has
