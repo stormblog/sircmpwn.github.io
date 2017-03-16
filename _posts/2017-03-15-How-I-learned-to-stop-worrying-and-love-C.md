@@ -107,6 +107,11 @@ reflect on how to avoid future fuck-ups would be the real fuck-up here.
 
 - - -
 
+It's important to remember that rules are made to be broken. There may be cases
+where things that are discouraged should be used, and things that are encouraged
+disregarded. You should strive to make such cases the exception, not the norm,
+and carefully justify them when they happen.
+
 C is the shit. I love it, and I hope more people can learn to see it the way I
 do. Good luck!
 
