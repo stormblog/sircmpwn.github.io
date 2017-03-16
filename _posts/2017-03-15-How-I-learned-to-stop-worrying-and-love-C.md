@@ -23,7 +23,7 @@ some interesting way of solving the problem. Ideally, a novice will understand
 your code *and* learn something from it. Write code as if the person maintaining
 it was you, circa last year.
 
-**Avoid magic**. Do not use macros. Do not use a typedef to hide a pointer or
+**Avoid magic**. Do not use macros[^1]. Do not use a typedef to hide a pointer or
 avoid writing "struct". Avoid writing complex abstractions. Keep your build
 system simple and transparent. Don't use stupid hacky crap just because it's a
 cool way of solving the problem. The underlying behavior of your code should be
@@ -34,7 +34,7 @@ be embraced, not subverted. But in the fine C tradition of giving yourself
 enough rope to hang yourself with, you can use it for magical purposes. You
 must not do this. Be a muggle.
 
-**Recognize and avoid dangerous patterns**. Do not use fixed size buffers[^1] -
+**Recognize and avoid dangerous patterns**. Do not use fixed size buffers[^2] -
 always calculate how much space you'll need and allocate it. Read the man pages
 for functions you use and handle their failure modes. Immediately convert unsafe
 user input into sanitized C structures. If you later have to present this data
@@ -110,4 +110,5 @@ reflect on how to avoid future fuck-ups would be the real fuck-up here.
 C is the shit. I love it, and I hope more people can learn to see it the way I
 do. Good luck!
 
-[^1]: it's been pointed out that this is not always correct. A previous draft addressed this, but I cut it out while editing. There are cases where a fixed size buffer is appropriate, but in those cases you should take extra care to measure the things you're putting into the buffers and gracefully handling failure.
+[^1]: Defining constants with them is fine, though
+[^2]: it's been pointed out that this is not always correct. A previous draft addressed this, but I cut it out while editing. There are cases where a fixed size buffer is appropriate, but in those cases you should take extra care to measure the things you're putting into the buffers and gracefully handling failure.
