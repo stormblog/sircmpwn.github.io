@@ -40,11 +40,11 @@ new since the [previous state of Sway](/2016/12/27/State-of-sway.html):
 The new [bounty program](https://github.com/SirCmpwn/sway/issues/986) has also
 raised $1,200 to support Sway development! Several bounties have been awarded,
 including redshift support and i3 marks, but every awardee chose to redonate
-their award to the bounty pool. Thanks to everyone who's contributed and worked
-on new features! Bounties have also been awarded for features in the Wayland
-ecosystem beyond Sway - a fact I'm especially proud of. If you want a piece of
-That $1,200 pot, [join us on IRC](http://webchat.freenode.net/?channels=sway&uio=d4)
-and we'll help you get started.
+their reward to the bounty pool. Thanks to everyone who's donated and everyone
+who's worked on new features! Bounties have also been awarded for features in
+the Wayland ecosystem beyond Sway - a fact I'm especially proud of. If you want
+a piece of that $1,200 pot, [join us on
+IRC](http://webchat.freenode.net/?channels=sway&uio=d4) and we'll help you get started.
 
 Many new developments are in the pipeline for you. 0.13.0 is expected to
 ship within the next few weeks - [here's a sneak peek at the
