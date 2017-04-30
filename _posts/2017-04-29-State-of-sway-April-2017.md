@@ -28,7 +28,7 @@ new since the [previous state of Sway](/2016/12/27/State-of-sway.html):
 * Redshift support
 * Improved security configuration
 * Automatic binary space partitioning layouts ala AwesomeWM
-* Complete support for i3 window criteria
+* Support for more i3 window criterion
 * Support for i3 marks
 * xdg_shell v6 support (Wayland thing, makes more native Wayland programs work)
 * We've switched from X.Y to X.Y.Z releases, Z releases shipping bugfixes while
