@@ -93,11 +93,7 @@ For some use-cases Electron is a reasonable choice.
 * [Visual Studio Code](https://code.visualstudio.com/), because it's a full
     blown IDE with a debugger and plugins and more. It's already gonna be
     bloated.
-* [GitKraken](https://www.gitkraken.com/), because HTML is a decent interface for
-    rendering the sorts of visualizations git needs
 * [Soundnode](http://www.soundnodeapp.com/), because it's not like any other
     music service's app obeys your OS's UI conventions
-* [Nylas](https://www.nylas.com/) but for the love of god don't use it to send
-    [HTML emails](/2016/04/11/Please-use-text-plain-for-emails.html)
 
 Uh, that's it. That's the entire list.
