@@ -1,5 +1,11 @@
 <div class="post-stub">
-    <h2><a href="{{ include.post.url }}">{{ include.post.title }}</a></h2>
-    <h3>{{ include.post.date | date_to_string }}</h3>
+    <h2>
+      <span class="date hidden-xs">
+        {{ include.post.date | date: "%Y-%m-%d" }}
+      </span>
+      <span class="title">
+        <a href="{{ include.post.url }}">{{ include.post.title }}</a>
+      </span>
+    </h2>
     {{ include.post.excerpt }}
 </div>

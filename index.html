@@ -4,16 +4,17 @@ title: Drew DeVault's Blog
 ---
 
 <div class="media">
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:10 %}
 {% include post-stub.html post=post %}
 {% endfor %}
 </div>
 
-{% if site.posts.size > 5 %}
-<div class="pull-right" style="margin-bottom: 2rem;">
-    <a href="/archive/page2/" class="btn btn-default">
+{% if site.posts.size > 10 %}
+<div class="pull-right">
+    <a href="/archive/page2/" class="btn btn-primary">
         Page 2
         <i class="fa fa-caret-right"></i>
     </a>
 </div>
+<div class="clearfix"></div>
 {% endif %}

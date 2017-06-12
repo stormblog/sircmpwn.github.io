@@ -8,19 +8,20 @@ title: Drew DeVault's Blog
     {% include post-stub.html post=post %}
     {% endfor %}
     {% if paginator.previous_page %}
-    <div class="pull-left" style="margin-bottom: 2rem;">
-        <a href="{{paginator.previous_page_path}}/" class="btn btn-default">
+    <div class="pull-left">
+        <a href="{{paginator.previous_page_path}}/" class="btn btn-primary">
             <i class="fa fa-caret-left"></i>
             Page {{paginator.previous_page}}
         </a>
     </div>
     {% endif %}
     {% if paginator.next_page %}
-    <div class="pull-right" style="margin-bottom: 2rem;">
-        <a href="{{paginator.next_page_path}}/" class="btn btn-default">
+    <div class="pull-right">
+        <a href="{{paginator.next_page_path}}/" class="btn btn-primary">
             Page {{paginator.next_page}}
             <i class="fa fa-caret-right"></i>
         </a>
     </div>
     {% endif %}
 </div>
+<div class="clearfix"></div>

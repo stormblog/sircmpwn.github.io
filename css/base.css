@@ -6,8 +6,15 @@
 }
 
 pre {
-    background: transparent;
     border: none;
+    border-radius: 0;
+    background: #ddd;
+    overflow-x: auto;
+}
+
+pre code {
+    white-space: pre;
+    word-wrap: normal;
 }
 
 code {
@@ -23,7 +30,7 @@ html, body {
 }
 
 body {
-    background: #F6F7F9;
+    background: #fff;
     padding-bottom: 2rem;
 }
 
@@ -51,16 +58,13 @@ img {
 }
 
 a {
-    color: #444;
+    color: blue;
     text-decoration: underline;
-}
-
-a:hover, a:focus {
-    color: #555;
 }
 
 h1 {
     padding-top: 0;
+    font-size: 16pt;
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,10 +73,6 @@ h1, h2, h3, h4, h5 {
 
 h1 small {
     font-size: 14pt;
-}
-
-pre {
-    margin: 10px 40px;
 }
 
 .footnotes::before {
@@ -111,6 +111,7 @@ blockquote {
 }
 
 .sidebar h3 {
+    font-size: 14pt;
     margin-top: 40px;
 }
 
@@ -120,10 +121,6 @@ blockquote {
 
 .sidebar h4 {
     font-weight: bold;
-}
-
-.sidebar h5 {
-    font-size: 12pt;
 }
 
 .btn {
@@ -145,4 +142,24 @@ em {
 
 hr {
     border-color: #999;
+}
+
+.post-stub h2 {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.post-stub .date {
+    color: #999;
+    display: inline-block;
+    min-width: 6rem;
+}
+
+.date {
+    color: #999;
+}
+
+.date a {
+    color: #999;
+    text-decoration: underline;
 }

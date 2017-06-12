@@ -3,7 +3,7 @@ gems:
     - jekyll-paginate
     - jekyll-seo-tag
 markdown: kramdown
-paginate: 5
+paginate: 10
 paginate_path: "/archive/page:num/"
 twitter:
     username: sircmpwn
