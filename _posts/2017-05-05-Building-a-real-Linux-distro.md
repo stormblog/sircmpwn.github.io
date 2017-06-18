@@ -9,7 +9,7 @@ that guides you through building a simple Linux system. It's similar to Linux
 from Scratch in that it helps you build a simple Linux system for personal use.
 I'd like to supplement this with some insight into my experience with a more
 difficult task: building a full blown Linux distribution. The result is
-[agunix](https://agunix.org), the "silver unix" system.
+[agunix](http://agunix.org), the "silver unix" system.
 
 For many years I've been frustrated with every distribution I've tried. Many of
 them have compelling features and design, but there's always a catch. The
@@ -102,7 +102,7 @@ show for it (I'm *almost* there, just have to make a few dozen more packages
 before [sway](https://github.com/SirCmpwn/sway) will run). At this point to have
 success you need others to buy into your ideas and start contributing - it's
 impossible to package everything yourself. Speaking of which, check out
-[agunix.org](https://agunix.org) and see if you like it! I haven't been doing
+[agunix.org](http://agunix.org) and see if you like it! I haven't been doing
 much marketing for this distro yet, but I do have a little bit of help. If
 you're interested in contributing in a new distro, we have lots of work for you
 to do!
