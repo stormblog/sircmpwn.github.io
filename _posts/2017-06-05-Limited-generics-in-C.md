@@ -61,6 +61,7 @@ struct wlr_output_state {
     struct gbm_surface *gbm;
     EGLSurface *egl;
     bool pageflip_pending;
+    enum wlr_drm_output_state state;
     // [...]
 };
 ```
