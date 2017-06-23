@@ -4,6 +4,12 @@ title: '[VIDEO] Arch Linux with full disk encryption in (about) 15 minutes'
 layout: post
 ---
 
+<link rel="stylesheet" href="/css/video-js.css">
+<script>
+window.HELP_IMPROVE_VIDEOJS = false;
+</script>
+<script src="/js/video.js"></script>
+
 After my [blog post](/2016/06/29/Privacy-as-a-hobby.html) emphasizing the
 importance of taking control of your privacy, I've decided to make a few more
 posts going over detailed instructions on how to actually do so. Today we have a
