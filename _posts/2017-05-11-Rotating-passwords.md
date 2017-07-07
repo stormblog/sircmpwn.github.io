@@ -6,7 +6,7 @@ layout: post
 I've been putting this post off for a while. Do you remember the [CloudFlare
 security
 problem](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/)
-that happened a few month ago? This is the one that disclosed huge amounts of
+that happened a few months ago? This is the one that disclosed huge amounts of
 sensitive information for huge numbers websites. When this happened, your
 accounts on [thousands of
 websites](https://github.com/pirate/sites-using-cloudflare) were potentially
