@@ -1,5 +1,5 @@
 title: Drew DeVault's Blog
-plugins:
+gems:
     - jekyll-paginate
     - jekyll-seo-tag
 markdown: kramdown
