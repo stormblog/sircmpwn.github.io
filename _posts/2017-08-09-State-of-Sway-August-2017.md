@@ -1,6 +1,6 @@
 ---
 # vim: tw=80
-title: State of Sway April 2017
+title: State of Sway August 2017
 layout: post
 ---
 
