@@ -9,6 +9,9 @@ same problems that generics might. This is a pattern I've started using to
 reduce the number of `void*` pointers floating around in my code: multiple
 definitions of a struct.
 
+**Errata**: we rolled this approach back in wlroots because it causes problems
+with LTO. I no longer recommend it.
+
 Let's take a look at a specific example. In
 [wlroots](https://github.com/SirCmpwn/wlroots), `wlr_output` is a generic type
 that can be implemented by any number of backends, like DRM (direct rendering
