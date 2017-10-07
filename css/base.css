@@ -167,3 +167,8 @@ hr {
 .fa-rss {
     color: orange;
 }
+
+article p {
+    line-height: 1.5;
+    font-size: 14.5px;
+}
