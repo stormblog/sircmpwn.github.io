@@ -4,7 +4,7 @@ title: "The future of Wayland, and sway's role in it"
 ---
 
 Today I've released sway
-[0.15-rc1](https://github.com/swaywm/sway/releases/tags/0.15-rc1), the first
+[0.15-rc1](https://github.com/swaywm/sway/releases/tag/0.15-rc1), the first
 release candidate for the final 0.x release of sway. That's right - after sway
 0.15 will be sway 1.0. After today, no new features are being added to sway
 until we complete the migration to our new plumbing library,
