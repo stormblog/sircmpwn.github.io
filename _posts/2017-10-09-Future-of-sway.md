@@ -81,9 +81,9 @@ imagine all of the features we're going to be able to build.
 We're sharing these improvements with the greater Wayland community, too.
 wlroots is a platform upon which we intend to develop and promote open standards
 that will unify the extensibility of all Wayland desktops. We've also been
-working with other Wayland compositors, notably [way-cooler TODO
-LINK](https://github.com/way-cooler/way-cooler), which are preparing to move
-their own codebases to a wlroots-based solution.
+working with other Wayland compositors, notably
+[way-cooler](https://github.com/way-cooler/way-cooler), which are preparing to
+move their own codebases to a wlroots-based solution.
 
 My goal is to ship sway 1.0 before the end of the year. These are exciting times
 for Wayland, and I hope you're looking forward to it.
