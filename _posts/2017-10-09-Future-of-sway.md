@@ -52,7 +52,7 @@ plan the integration of wlroots and sway.
 All of this work has been possible thanks to a contingent of highly motivated
 contributors who have done huge amounts of work for wlroots, writing and
 maintaining entire subsystems far faster than I could have done it alone. I
-really cannot understate the importance of these contributors. Thanks to their
+really cannot overstate the importance of these contributors. Thanks to their
 contributions, most of my work is in organizing development and merging pull
 requests. From the bottom of my heart, [thank
 you](https://github.com/swaywm/wlroots/graphs/contributors).
