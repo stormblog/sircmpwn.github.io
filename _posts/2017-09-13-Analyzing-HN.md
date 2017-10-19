@@ -10,6 +10,11 @@ is free of spam and the conversations are usually respectful and meaningful (if
 pessimistic at times). However, there is always room for improvement, and
 moderation on Hacker News is no exception.
 
+**Notice**: on 2017-10-19 this article was updated to incorporate feedback the
+Hacker News moderators sent to me to clarify some of the points herein. You may
+view a diff of these changes
+[here](https://github.com/SirCmpwn/sircmpwn.github.io/commit/553d051c84a4631c3bd3264a437dfbc6c9807d13).
+
 For some time now, I've been scraping the HN API and website to learn how the
 moderators work, and to gather some interesting statistics about posts there
 in general. Every 5 minutes, I take a sample of the front page, and every 30
