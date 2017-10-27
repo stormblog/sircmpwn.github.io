@@ -53,4 +53,10 @@ way around.
 
 Buy AMD. Nvidia-- fuck you!
 
+**Edit**: It's worth noting that Nvidia is evidently attempting to find a better
+path with [this new GitHub project](https://github.com/cubanismo/allocator). I
+hope it works out, but they aren't really cooperating much with anyone to build
+it - particularly nouveau. It's more throwing code/blobs over the wall and
+expecting everyone to change for them.
+
 [^1]: Mainlined means that they are included in the upstream Linux kernel source code.
