@@ -24,7 +24,7 @@ So far, I've been speaking in terms of *Sway* supporting Nvidia, but this is
 an ass-backwards way of thinking. *Nvidia* needs to support Sway. There are
 Linux kernel APIs that we (and other Wayland compositors) use to get the job
 done. Among these are KMS, DRM, and GBM - respectively Kernel Mode Setting,
-Display Resource Management, and Generic Buffer Management. Every GPU vendor
+Direct Rendering Manager, and Generic Buffer Management. Every GPU vendor
 but Nvidia supports these APIs. Intel and AMD support them with mainlined[^1],
 open source drivers. For AMD this was notably done by replacing their
 proprietary driver with a new, open source one, which has been developed in
