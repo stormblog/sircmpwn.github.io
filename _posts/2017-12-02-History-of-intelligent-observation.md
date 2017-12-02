@@ -184,7 +184,7 @@ found outside of black holes.
 It's been an exciting time for our laboratory. Everyone has done great work on
 this simulation. Though 2813/9301's incredible simulation is coming to an end,
 we still have more work to do. We are proud to announce that in addition to
-simulation 2813/9302 starting soon, we have elected to run simulation 2813/9302
+simulation 2813/9302 starting soon, we have elected to run simulation 2813/9301
 once again. We have decided to nurture the emergent intelligences as if they
 were our brothers, and communicate more openly with them. We have established a
 new team to learn about each intelligence and make first contact with them using
