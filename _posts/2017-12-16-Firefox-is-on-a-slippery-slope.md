@@ -25,7 +25,7 @@ advertisement addon shows up [like
 this](http://www.bolcer.org/looking-glass2.png) on your addon page, and was
 added to Firefox stable. If I saw this before I knew what was going on, I would
 think my browser was compromised!  Apparently it was a mistake that this showed
-up on the addon page, though - it was supposed be be *silently* sideloaded into
+up on the addon page, though - it was supposed to be *silently* sideloaded into
 your browser!
 
 There's [a ticket](https://bugzilla.mozilla.org/show_bug.cgi?id=1423003) on
