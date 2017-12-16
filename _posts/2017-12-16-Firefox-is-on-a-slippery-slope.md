@@ -10,8 +10,8 @@ addon, but a hardcoded feature. In the past few days, we've discovered an
 advertisement in the form of browser extension was sideloaded into user
 browsers. Whoever is leading these decisions at Mozilla needs to be stopped.
 
-Here's a breakdown of what happened a few days ago. Mozilla and Fox
-Entertainment did a "collaboration" (read: promotion) for the TV show Mr. Robot.
+Here's a breakdown of what happened a few days ago. Mozilla and NBC
+Universal did a "collaboration" (read: promotion) for the TV show Mr. Robot.
 It involved sideloading a sketchy browser extension which will <strong
 style="display: inline-block; transform: scaleY(-1)">invert</strong> text that
 matches a list of Mr. Robot-related keywords like "fsociety", "robot", "undo",
