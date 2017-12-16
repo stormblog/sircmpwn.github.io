@@ -60,3 +60,8 @@ Mozilla, you fucked up *bad*, and you still haven't apologised. The study is
 still active and ongoing. There is no amount of money that you should have
 accepted for this. This is the last straw - and I took a lot of straws from you.
 Goodbye forever, Mozilla.
+
+**Responses**:
+
+[Mozilla, Firefox, Looking Glass, and you](https://blog.jeaye.com/2017/12/16/firefox/)
+via jeaye.com
