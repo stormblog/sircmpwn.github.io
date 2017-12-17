@@ -61,6 +61,12 @@ still active and ongoing. There is no amount of money that you should have
 accepted for this. This is the last straw - and I took a lot of straws from you.
 Goodbye forever, Mozilla.
 
+**Update**
+
+It has been clarified that an about:config flag must be set for this addon's
+behavior to be visible. This improves the situation considerably, but I do not
+think it exenorates Mozilla and I stand firm behind most of my points.
+
 **Responses**:
 
 [Mozilla, Firefox, Looking Glass, and you](https://blog.jeaye.com/2017/12/16/firefox/)
