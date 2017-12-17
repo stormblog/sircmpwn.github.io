@@ -65,7 +65,12 @@ Goodbye forever, Mozilla.
 
 It has been clarified that an about:config flag must be set for this addon's
 behavior to be visible. This improves the situation considerably, but I do not
-think it exenorates Mozilla and I stand firm behind most of my points.
+think it exenorates Mozilla and I stand firm behind most of my points. The study
+has also been rolled back by Mozilla, and Mozilla has issued
+[statements](https://gizmodo.com/mozilla-slipped-a-mr-robot-promo-plugin-into-firefox-1821332254)
+to the
+[media](https://gizmodo.com/after-blowback-firefox-will-move-mr-robot-extension-t-1821354314)
+justifying the study (no apology has been issued).
 
 **Responses**:
 
