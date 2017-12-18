@@ -61,7 +61,7 @@ still active and ongoing. There is no amount of money that you should have
 accepted for this. This is the last straw - and I took a lot of straws from you.
 Goodbye forever, Mozilla.
 
-**Update**
+**Update 2017-12-16 @ 22:33**
 
 It has been clarified that an about:config flag must be set for this addon's
 behavior to be visible. This improves the situation considerably, but I do not
@@ -71,6 +71,12 @@ has also been rolled back by Mozilla, and Mozilla has issued
 to the
 [media](https://gizmodo.com/after-blowback-firefox-will-move-mr-robot-extension-t-1821354314)
 justifying the study (no apology has been issued).
+
+**Update 2017-22-18**
+
+Mozilla has issued an apology:
+
+https://blog.mozilla.org/firefox/update-looking-glass-add/
 
 **Responses**:
 
