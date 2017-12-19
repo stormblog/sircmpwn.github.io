@@ -72,7 +72,7 @@ to the
 [media](https://gizmodo.com/after-blowback-firefox-will-move-mr-robot-extension-t-1821354314)
 justifying the study (no apology has been issued).
 
-**Update 2017-22-18**
+**Update 2017-12-18**
 
 Mozilla has issued an apology:
 
