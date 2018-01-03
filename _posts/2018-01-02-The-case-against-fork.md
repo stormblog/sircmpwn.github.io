@@ -56,7 +56,7 @@ Important for Backwards Compatibility, they just fake it and reuse the same
 memory map (except read-only), then trap the faults and actually copy later.
 The hope is that the child will get on with it and exec before this happens.
 
-However, nothing is prevents the child from doing something other than exec -
+However, nothing prevents the child from doing something other than exec -
 it's free to use the memory space however it desires! This approach now leads to
 *memory overcommittment* - Linux has promised memory it does not have. As a
 result, when it really does run out of physical memory, Linux will just kill off
