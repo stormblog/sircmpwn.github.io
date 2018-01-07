@@ -86,7 +86,8 @@ really bad implementation of the spawn paradigm &mdash; it basically operates
 like fork backwards, and inherits many of the same flaws. You still have to deal
 with children inheriting your file descriptors, for example, only now you do it
 in the parent process. It's also straight-up impossible to make a genuine pipe
-with `posix_spawn`.
+with `posix_spawn`. (*Note: a reader corrected me - this is indeed possible via
+posix_spawn_file_actions_adddup2*.)
 
 Let's talk about the good models - `rfork` and spawn (at least, if spawn is done
 right). `rfork` originated from plan9 and is a beautiful little coconut of a
