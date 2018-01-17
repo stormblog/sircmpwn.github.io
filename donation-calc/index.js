@@ -521,6 +521,8 @@ class Calculator extends Component {
           * Withdrawl fee assumes payout via PayPal. Numbers for payout via
           Stripe are not available, and numbers for Payoneer are different. <a
             href="https://patreon.zendesk.com/hc/en-us/articles/203913489-What-are-my-options-to-receive-payout-">Details here</a>.
+          Withdrawl fees are also applied on the total sum of the creator's
+          earnings, and capped at $20 across all earnings.
         </small>
       </div>
     );
