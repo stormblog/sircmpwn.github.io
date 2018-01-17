@@ -8,3 +8,5 @@ paginate_path: "/archive/page:num/"
 twitter:
     username: sircmpwn
 logo: /avatar.png
+exclude:
+  - donation-calc
