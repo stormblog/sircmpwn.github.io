@@ -60,7 +60,7 @@ class Calculator extends Component {
           <tbody>
             <tr>
               <td>Stripe fee</td>
-              <td>2.9% + 30c</td>
+              <td>2.9% + 30¢</td>
               <td
                 style={{ textAlign: "right" }}
               >${stripe.toFixed(2)}</td>
@@ -123,7 +123,7 @@ class Calculator extends Component {
       "debit": "Debit",
     };
     const humanInFee = {
-      "card-usd": "2.925%+35c",
+      "card-usd": "2.925%+35¢",
       "card-euro": "2.106%+€0.21",
       "wire": "0.585%",
       "debit": "€0.59",
@@ -156,7 +156,7 @@ class Calculator extends Component {
                 checked={inMethod === "card-usd"}
                 onChange={e => this.setState({ inMethod: "card-usd" })}
               />
-              Card - USD (2.925%+35c)
+              Card - USD (2.925%+35¢)
             </label>
             <label class="radio-inline">
               <input
@@ -428,7 +428,7 @@ class Calculator extends Component {
           <tbody>
             <tr>
               <td>Transaction fee</td>
-              <td>2.9% + 30c</td>
+              <td>2.9% + 30¢</td>
               <td
                 style={{ textAlign: "right" }}
               >(${tx_fee.toFixed(2)})</td>
@@ -455,7 +455,8 @@ class Calculator extends Component {
               const share = (amt / total) * (total - tx_fee);
               const patreon_fee = share * 0.05;
               const after_patreon = share - patreon_fee;
-              const clamp = (value, min, max) => Math.min(Math.max(value));
+              const clamp = (value, min, max) =>
+                Math.min(Math.max(min, value), max);
               const withdrawl_fee = clamp(after_patreon * 0.01, 0.25, 20);
               const creator_total = after_patreon - withdrawl_fee;
               return [
@@ -491,7 +492,7 @@ class Calculator extends Component {
                 </tr>,
                 <tr>
                   <td>Withdrawl fee*</td>
-                  <td>1% (25c min, $20 max)</td>
+                  <td>1% (25¢ min, $20 max)</td>
                   <td
                     style={{ textAlign: "right" }}
                   >(${withdrawl_fee.toFixed(2)})</td>
