@@ -30,6 +30,8 @@ you sort it out.
 
 Only the typical [Stripe fee](https://stripe.com/us/pricing) is applied.
 
+Note: I am the author of fosspay, if you didn't already know.
+
 **Patreon**
 
 [How do you calculate fees?](https://patreon.zendesk.com/hc/en-us/articles/204606125-How-do-you-calculate-fees-)
