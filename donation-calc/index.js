@@ -256,7 +256,7 @@ class Calculator extends Component {
             creator.toFixed(2)}</strong> per {
             frequency} for <strong>{duration} {frequency}(s)</strong>.
           If they wait until the end of this timeframe to withdraw their funds,
-          their <strong>withdrawl fees</strong> will look like this:
+          their <strong>withdrawal fees</strong> will look like this:
         </p>
         <fieldset class="form-group" style={{ marginTop: "1rem" }}>
           <label class="radio-inline">
@@ -300,7 +300,7 @@ class Calculator extends Component {
           </thead>
           <tbody>
             <tr>
-              <td>Withdrawl fee</td>
+              <td>Withdrawal fee</td>
               <td></td>
               <td
                 style={{ textAlign: "right" }}
@@ -491,7 +491,7 @@ class Calculator extends Component {
                   <td></td>
                 </tr>,
                 <tr>
-                  <td>Withdrawl fee*</td>
+                  <td>Withdrawal fee*</td>
                   <td>1% (25¢ min, $20 max)</td>
                   <td
                     style={{ textAlign: "right" }}
@@ -519,10 +519,10 @@ class Calculator extends Component {
           </tbody>
         </table>
         <small>
-          * Withdrawl fee assumes payout via PayPal. Numbers for payout via
+          * Withdrawal fee assumes payout via PayPal. Numbers for payout via
           Stripe are not available, and numbers for Payoneer are different. <a
             href="https://patreon.zendesk.com/hc/en-us/articles/203913489-What-are-my-options-to-receive-payout-">Details here</a>.
-          Withdrawl fees are also applied on the total sum of the creator's
+          Withdrawal fees are also applied on the total sum of the creator's
           earnings, and capped at $20 across all earnings.
         </small>
       </div>
