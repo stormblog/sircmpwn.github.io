@@ -121,5 +121,5 @@ gogs.sr.ht, with desktop keybindings to make grabbing them convenient.
 Well, that covers most of my major self hosted services. If you're interested in
 more detail about how any of this works so you might set something up yourself,
 feel free to reach out to me by [email](mailto:sir@cmpwn.com),
-[Twitter](https://twitter.com/sircmpwn), or IRC (SirCmpwn on any network). I'd
+[Mastodon](https://cmpwn.com/@sir), or IRC (SirCmpwn on any network). I'd
 be happy to help!
