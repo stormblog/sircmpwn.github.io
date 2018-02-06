@@ -23,7 +23,7 @@ compatible with each other because they conform to the standard.
 Any shell that utilizes features specific to Bash are not portable, which means
 you cannot take them with you to any other system. Many Linux-based systems do
 not use Bash or GNU coreutils. Outside of Linux, pretty much everyone but Hurd
-does *not* ship GNU tools, including bash. On any of these systems, scripts
+does *not* ship GNU tools, including bash[^1]. On any of these systems, scripts
 using "bashisms" will not work.
 
 This is bad if your users wish to utilize your software anywhere other than
@@ -96,3 +96,5 @@ grep`. Note: at the time of writing, the POSIX man pages do not use dashes if
 your locale is UTF-8, which makes searching for flags with `/` difficult. Use
 `env LC_ALL=POSIX man 1p grep` if you need to search for flags, and I'll speak
 to the maintainer of man-pages about this.
+
+[^1]: A reader points out that macOS ships an ancient version of bash.
