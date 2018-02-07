@@ -52,7 +52,6 @@ might trip you up:
 
 - `[[ condition ]]` does not work; use `[ condition ]`
 - Arrays do not work; [use IFS](http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_05)
-- Arithmetic does not work; use `awk` or `bc`
 - Local variables do not work; use a subshell
 
 The easiest way to learn about POSIX shell is to [read the
