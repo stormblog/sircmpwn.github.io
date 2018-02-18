@@ -12,25 +12,10 @@ months. This is a powerful tool for creating new Wayland compositors, but it is
 very dense and difficult to understand. Do not despair! The intention of these
 articles is to make you understand and feel comfortable using it.
 
-<div class="well row">
-    <img src="https://sr.ht/Fi2P.svg" width="128" style="float: left;
-    padding-right: 1rem;" />
-    <h3 style="margin: 0; padding: 0; margin-bottom: 0.5rem;">
-        <a
-            href="https://www.indiegogo.com/projects/sway-hackathon-software/x/1059863#/"
-            target="_blank" rel="noopener"
-        >Announcing the Sway/wlroots hackathon
-        </a>
-    </h3>
-    <p>
-        Hey! If you're interested in Sway and wlroots, please consider
-        contributing to our <a
-        href="https://www.indiegogo.com/projects/sway-hackathon-software/x/1059863"
-        target="_blank" rel="noopener">new crowdfunding campaign</a>. We're
-        bringing the core contributors together to work on a 2 week hackathon to
-        push for Sway 1.0. Thanks! Let's get back to the article.
-    </p>
-</div>
+Before we dive in, a quick note: the wlroots team is starting a crowdfunding
+campaign today to fund travel for each of our core contributors to meet in
+person and work for two weeks on a hackathon. Please consider contributing to
+[the campaign](https://www.indiegogo.com/projects/sway-hackathon-software/x/1059863)!
 
 You **must** read and comprehend my earlier article, [An introduction to
 Wayland](/2017/06/10/Introduction-to-Wayland.html), before attempting to
