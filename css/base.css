@@ -6,10 +6,11 @@
 }
 
 pre {
-    border: none;
+    border: 1px #ddd solid;
     border-radius: 0;
-    background: #ddd;
     overflow-x: auto;
+    background: transparent;
+    line-height: 1.2;
 }
 
 pre code {
