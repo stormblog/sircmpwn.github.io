@@ -370,6 +370,13 @@ similar changes!
 Over the next two articles, we'll finish wiring up the Wayland server and render
 a Wayland client on screen. Please look forward to it!
 
+<p style="text-align: right">
+    Next &mdash;
+    <a href="/2018/02/22/Writing-a-wayland-compositor-part-2.html">
+        Part 2: Rigging up the server
+    </a>
+</p>
+
 [^1]: It's entirely possible to utilize a wlroots backend to make applications which are not Wayland compositors. However, we require a wayland display anyway because the event loop is necessary for a lot of wlroots internals.
 [^2]: wlr_renderer is optional. When you call wlr_output_make_current, the OpenGL context is made current and from here you can use any approach you prefer. wlr_renderer is provided to help compositors with simple rendering requirements.
 [^3]: Namely: the viewport and blend mode.
