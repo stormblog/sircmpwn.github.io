@@ -57,7 +57,7 @@ for some virtual private servers. As I migrate these, I will be reinvesting the
 money saved into upgrading the new infrastructure.
 
 The next question is where to go from here. I have set my full-time goal at
-$6,000 per month, which works out to $60,000 per year pre-tax,
+$6,000 per month, which works out to $72,000 per year pre-tax,
 pre-infrastructure expenses. This number is a lofty goal, and one that I expect
 won't be met for a long time, if at all. This number is based on several
 factors: cost of living, financial security, and taxes. The number is a
