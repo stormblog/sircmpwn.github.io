@@ -154,6 +154,12 @@ window. If you had any trouble with this article, please reach out to me at
 [sir@cmpwn.com](mailto:sir@cmpwn.com) or to the wlroots team at
 [#sway-devel](http://webchat.freenode.net/?channels=sway-devel&uio=d4).
 
+<p style="float: right">
+    Next &mdash;
+    <a href="/2018/02/28/Writing-a-wayland-compositor-part-3.html">
+        Part 3: Rendering a window
+    </a>
+</p>
 <p>
     Previous &mdash;
     <a href="/2018/02/17/Writing-a-Wayland-compositor-1.html">
