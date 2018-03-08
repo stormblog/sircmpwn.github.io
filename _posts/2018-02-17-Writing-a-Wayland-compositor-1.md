@@ -260,7 +260,7 @@ output is unplugged or otherwise removed from wlroots. Our handler looks like
 this:
 
 ```diff
-+static void output_remove_notify(struct wl_listener *listener, void *data) {
++static void output_destroy_notify(struct wl_listener *listener, void *data) {
 +        struct mcw_output *output = wl_container_of(listener, output, destroy);
 +        wl_list_remove(&output->link);
 +        wl_list_remove(&output->destroy.link);
