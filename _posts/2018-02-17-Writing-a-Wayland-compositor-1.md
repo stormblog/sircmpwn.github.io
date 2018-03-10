@@ -339,7 +339,7 @@ We can now take advantage of this renderer to draw something on the output.
 +       wlr_renderer_begin(renderer, wlr_output);
 +
 +       float color[4] = {1.0, 0, 0, 1.0};
-+       wlr_renderer_clear(renderer, &output->color);
++       wlr_renderer_clear(renderer, &color);
 +
 +       wlr_output_swap_buffers(wlr_output, NULL, NULL);
 +       wlr_renderer_end(renderer);
