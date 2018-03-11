@@ -73,7 +73,7 @@ IRC is one of the simplest protocols out there, and it's dead easy to write a
 bot for it. If your programming language can open a TCP socket (it can), then
 you can use it to write an IRC bot in 2 minutes, flat. That's not even to
 mention that there are IRC client libraries available for every programming
-langauge on every platform ever - I even [wrote one
+language on every platform ever - I even [wrote one
 myself!](https://github.com/SirCmpwn/ChatSharp) In fact, that guy is probably
 the fifth or sixth IRC library I've written. They're so easy to write that I've
 lost count.
