@@ -33,7 +33,7 @@ of code, and send them an email! When you find the problem, don't be afraid to
 send a patch over instead of working around it in your own code. This is
 something every programmer should be comfortable doing often.
 
-Even when the leads your chasing down are written in unfamiliar programming
+Even when the leads you're chasing down are written in unfamiliar programming
 languages or utilize even more unfamiliar libraries, don't despair. All
 programming languages have a lot in common and huge numbers of resources are
 available online. Learning just enough to understand (and fix!) a particular
