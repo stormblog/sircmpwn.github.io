@@ -23,7 +23,7 @@ The KDE approach to their desktop shell is similar to the original sway
 approach. Today, their Plasma shell uses a number of proprietary protocols which
 are hacks on top of the xdg-shell protocol (for those not in the know, the
 xdg-shell protocol is used to render normal desktop windows and is not designed
-for use with shell surfaces) that incorporate several of the concepts they were
+for use with e.g. panels) that incorporate several of the concepts they were
 comfortable using on X11 in an almost 1:1 fashion. Sway never had any X11
 concepts to get comfortable with, but some may not know that sway's panel,
 wallpaper, and lock screen programs on the 0.x releases are also hacks on top of
