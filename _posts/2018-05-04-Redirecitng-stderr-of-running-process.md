@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Redirecing stderr of a running process
+title: Redirecting stderr of a running process
 ---
 
 During the KDE sprint in Berlin, [Roman Gilg](http://www.subdiff.de/) leaned
