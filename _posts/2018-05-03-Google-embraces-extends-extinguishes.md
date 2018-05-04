@@ -64,6 +64,6 @@ work to diversify the internet and fight the monoculture they're fostering.
 
 ---
 
-**2018-05-04 18:12 UTC**: I retract my critism of Google's open source portfolio
-as a whole, and acknowlege their positive impact on many projects. However, of
+**2018-05-04 18:12 UTC**: I retract my criticism of Google's open source portfolio
+as a whole, and acknowledge their positive impact on many projects. However, of
 the projects explicitly mentioned I maintain that my criticism is valid.
