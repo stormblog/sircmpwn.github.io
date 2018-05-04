@@ -25,8 +25,8 @@ Then there's AMP. It's an understatement to say Google embraced the web - but
 AMP is how they enter the "extend" phase. AMP is a "standard", but they don't
 listen to any external feedback on it and it serves as a vehicle for keeping
 users on their platform even when reading content from other websites. This is
-also thought to be the main intention of the service, as there are plenty of
-other (and more effective) ways of rewarding lightweight pages in their search
+thought to be the main intention of the service, as there are plenty of other
+(and more effective) ways of rewarding lightweight pages in their search
 results. The "extinguish" phase comes as sites that don't play ball get pushed
 out of Google search results and into obscurity. AMP is perhaps the most blatant
 of Google's strategies, serving only to further Google's agenda at the expense
