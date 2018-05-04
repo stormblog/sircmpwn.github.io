@@ -61,3 +61,9 @@ For many people, the alluring convenience of Google's services is overwhelming.
 It's hard to hear these things. But we must face facts: embrace, extend,
 extinguish is a core part of Google's playbook today. It's important that we
 work to diversify the internet and fight the monoculture they're fostering.
+
+---
+
+**2018-05-04 18:12 UTC**: I retract my critism of Google's open source portfolio
+as a whole, and acknowlege their positive impact on many projects. However, of
+the projects explicitly mentioned I maintain that my criticism is valid.
