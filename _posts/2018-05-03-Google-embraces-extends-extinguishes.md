@@ -67,3 +67,8 @@ work to diversify the internet and fight the monoculture they're fostering.
 **2018-05-04 18:12 UTC**: I retract my criticism of Google's open source portfolio
 as a whole, and acknowledge their positive impact on many projects. However, of
 the projects explicitly mentioned I maintain that my criticism is valid.
+
+**2018-05-05 11:17 UTC**: Apparently the previous retraction caused some
+confusion. I am *only* retracting the insinuation that Google isn't a good actor
+in open source, namely the first sentence of paragraph 6. The rest of the
+article has not been retracted.
