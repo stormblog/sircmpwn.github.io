@@ -45,7 +45,7 @@ interactively, but stick to POSIX sh for your scripts.
 At the top of your scripts, put `#!/bin/sh`. You don't have to worry about using
 `env` here like you might have been trained to do with bash: `/bin/sh` is the
 standardized location for the POSIX shell, and any standards-conforming system
-will either put it there or make your script work anyway.
+will either put it there or make your script work anyway.[^2]
 
 The next step is to avoid bashisms. There are many, but here are a few that
 might trip you up:
@@ -97,3 +97,4 @@ your locale is UTF-8, which makes searching for flags with `/` difficult. Use
 to the maintainer of man-pages about this.
 
 [^1]: A reader points out that macOS ships an ancient version of bash.
+[^2]: *2018-05-15 correction*: `/bin/sh` is unfortunately not standardized by POSIX. However, I still recommend its use, as most operating systems will place it there. The portable way to invoke shell scripts is `sh path/to/script`.
