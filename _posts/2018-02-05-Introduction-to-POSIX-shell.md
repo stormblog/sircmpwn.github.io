@@ -97,4 +97,4 @@ your locale is UTF-8, which makes searching for flags with `/` difficult. Use
 to the maintainer of man-pages about this.
 
 [^1]: A reader points out that macOS ships an ancient version of bash.
-[^2]: *2018-05-15 correction*: `/bin/sh` is unfortunately not standardized by POSIX. However, I still recommend its use, as most operating systems will place it there. The portable way to invoke shell scripts is `sh path/to/script`.
+[^2]: *2018-05-15 correction*: `#!/bin/sh` is unfortunately not standardized by POSIX. However, I still recommend its use, as most operating systems will place it there. The portable way to invoke shell scripts is `sh path/to/script`.
